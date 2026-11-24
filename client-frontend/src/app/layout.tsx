@@ -16,7 +16,7 @@ const dmSans = localFont({ src: "./fonts/dm-sans.woff2", variable: "--font-dm-sa
 // Pages render per request against the API; fetches are cached for a short time (see lib/api.ts).
 export const dynamic = "force-dynamic";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

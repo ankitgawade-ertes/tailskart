@@ -8,7 +8,7 @@ export const dynamic = "force-dynamic";
 export const revalidate = 3600;
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const site = (process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000").replace(/\/$/, "");
+  const site = (process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000").replace(/\/$/, "");
   const [cats, breeds] = await Promise.all([
     serverGetSafe<{ items: Category[] }>("/categories", { items: [] }, 3600),
     serverGetSafe<{ items: Breed[] }>("/breeds", { items: [] }, 3600),

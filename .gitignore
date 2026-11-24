@@ -24,3 +24,5 @@ infra/terraform/.terraform.lock.hcl.bak
 # private files and old archives
 backend/private-uploads
 *.zip
+
+*.pem
