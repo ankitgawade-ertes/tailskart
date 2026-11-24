@@ -1,0 +1,233 @@
+{
+ "note": "Dummy photos from Unsplash (free licence, hot-linked). Replace with real product photography before launch.",
+ "products": {
+  "drools-chicken-and-egg-adult-dog-dry-food": [
+   "https://images.unsplash.com/photo-1695023265600-07f536e8ca4c?auto=format&fit=crop&w=900&h=900&q=70",
+   "https://images.unsplash.com/photo-1767023024653-3d6f74909ccf?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "drools-chicken-and-egg-puppy-dog-dry-food": [
+   "https://images.unsplash.com/photo-1767023024653-3d6f74909ccf?auto=format&fit=crop&w=900&h=900&q=70",
+   "https://images.unsplash.com/photo-1591946559594-8c6d3b7391eb?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "royal-canin-maxi-puppy-dog-dry-food": [
+   "https://images.unsplash.com/photo-1591946559594-8c6d3b7391eb?auto=format&fit=crop&w=900&h=900&q=70",
+   "https://images.unsplash.com/photo-1695023264743-7f1448deb7f2?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "royal-canin-shih-tzu-adult-dog-dry-food": [
+   "https://images.unsplash.com/photo-1695023264743-7f1448deb7f2?auto=format&fit=crop&w=900&h=900&q=70",
+   "https://images.unsplash.com/photo-1767023023369-96a7c923be0c?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "pedigree-chicken-and-vegetables-adult-dog-dry-food": [
+   "https://images.unsplash.com/photo-1767023023369-96a7c923be0c?auto=format&fit=crop&w=900&h=900&q=70",
+   "https://images.unsplash.com/photo-1600352712371-15fd49ca42b5?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "drools-veg-adult-dog-dry-food": [
+   "https://images.unsplash.com/photo-1600352712371-15fd49ca42b5?auto=format&fit=crop&w=900&h=900&q=70",
+   "https://images.unsplash.com/photo-1649923625461-2638b4a86d8b?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "farmina-nandd-grain-free-lamb-and-blueberry-adult-dog-dry-food": [
+   "https://images.unsplash.com/photo-1649923625461-2638b4a86d8b?auto=format&fit=crop&w=900&h=900&q=70",
+   "https://images.unsplash.com/photo-1695023265600-07f536e8ca4c?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "pedigree-chicken-and-liver-chunks-in-gravy-puppy-wet-food": [
+   "https://images.unsplash.com/photo-1649923625461-2638b4a86d8b?auto=format&fit=crop&w=900&h=900&q=70",
+   "https://images.unsplash.com/photo-1767023023369-96a7c923be0c?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "drools-real-chicken-gravy-adult-dog-wet-food": [
+   "https://images.unsplash.com/photo-1767023023369-96a7c923be0c?auto=format&fit=crop&w=900&h=900&q=70",
+   "https://images.unsplash.com/photo-1649923625461-2638b4a86d8b?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "purepet-real-chicken-biscuit-dog-treats": [
+   "https://images.unsplash.com/photo-1568640347023-a616a30bc3bd?auto=format&fit=crop&w=900&h=900&q=70",
+   "https://images.unsplash.com/photo-1761486691834-cd4925ad60b3?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "chip-chops-sun-dried-chicken-jerky-dog-treats": [
+   "https://images.unsplash.com/photo-1761486691834-cd4925ad60b3?auto=format&fit=crop&w=900&h=900&q=70",
+   "https://images.unsplash.com/photo-1741942732547-45a0d0c2b99a?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "pedigree-dental-care-sticks-for-medium-dogs": [
+   "https://images.unsplash.com/photo-1741942732547-45a0d0c2b99a?auto=format&fit=crop&w=900&h=900&q=70",
+   "https://images.unsplash.com/photo-1761660304474-d921d4d3f49d?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "wiggles-peanut-butter-training-bites": [
+   "https://images.unsplash.com/photo-1761660304474-d921d4d3f49d?auto=format&fit=crop&w=900&h=900&q=70",
+   "https://images.unsplash.com/photo-1568640347023-a616a30bc3bd?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "kong-classic-rubber-chew-toy": [
+   "https://images.unsplash.com/photo-1535294435445-d7249524ef2e?auto=format&fit=crop&w=900&h=900&q=70",
+   "https://images.unsplash.com/photo-1715033749994-55f16a83c236?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "trixie-squeaky-plush-duck-toy": [
+   "https://images.unsplash.com/photo-1715033749994-55f16a83c236?auto=format&fit=crop&w=900&h=900&q=70",
+   "https://images.unsplash.com/photo-1722257401181-a04cc4df36f8?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "let-s-play-rope-tug-toy-with-ball": [
+   "https://images.unsplash.com/photo-1722257401181-a04cc4df36f8?auto=format&fit=crop&w=900&h=900&q=70",
+   "https://images.unsplash.com/photo-1535294435445-d7249524ef2e?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "wahl-oatmeal-gentle-dog-shampoo": [
+   "https://images.unsplash.com/photo-1647002380358-fc70ed2f04e0?auto=format&fit=crop&w=900&h=900&q=70",
+   "https://images.unsplash.com/photo-1583534778255-5d67d3dcf95d?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "skatrs-antibacterial-pet-cleaning-wipes": [
+   "https://images.unsplash.com/photo-1583534778255-5d67d3dcf95d?auto=format&fit=crop&w=900&h=900&q=70",
+   "https://images.unsplash.com/photo-1727510190155-51abda425a82?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "hartz-self-cleaning-slicker-brush": [
+   "https://images.unsplash.com/photo-1727510190155-51abda425a82?auto=format&fit=crop&w=900&h=900&q=70",
+   "https://images.unsplash.com/photo-1647002380358-fc70ed2f04e0?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "let-s-wag-padded-nylon-harness": [
+   "https://images.unsplash.com/photo-1773086727839-8d9180b510fc?auto=format&fit=crop&w=900&h=900&q=70",
+   "https://images.unsplash.com/photo-1787561375245-efc541f1ee87?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "let-s-wag-martingale-fabric-collar": [
+   "https://images.unsplash.com/photo-1787561375245-efc541f1ee87?auto=format&fit=crop&w=900&h=900&q=70",
+   "https://images.unsplash.com/photo-1773086727839-8d9180b510fc?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "mutt-of-course-orthopaedic-memory-foam-dog-bed": [
+   "https://images.unsplash.com/photo-1581888227599-779811939961?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "basil-stainless-steel-anti-skid-bowl": [
+   "https://images.unsplash.com/photo-1767023024653-3d6f74909ccf?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "pawgy-cable-knit-winter-sweater": [
+   "https://images.unsplash.com/photo-1699686160376-940e512f65f8?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "drools-ocean-fish-adult-cat-dry-food": [
+   "https://images.unsplash.com/photo-1764576504536-dbdfa4cb1d9a?auto=format&fit=crop&w=900&h=900&q=70",
+   "https://images.unsplash.com/photo-1774797405267-7c452cb85652?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "purepet-ocean-fish-adult-cat-dry-food": [
+   "https://images.unsplash.com/photo-1774797405267-7c452cb85652?auto=format&fit=crop&w=900&h=900&q=70",
+   "https://images.unsplash.com/photo-1571151596869-2663a84c1e41?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "royal-canin-persian-adult-cat-dry-food": [
+   "https://images.unsplash.com/photo-1571151596869-2663a84c1e41?auto=format&fit=crop&w=900&h=900&q=70",
+   "https://images.unsplash.com/photo-1787295145690-4ef1e08db667?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "whiskas-kitten-chicken-dry-food": [
+   "https://images.unsplash.com/photo-1787295145690-4ef1e08db667?auto=format&fit=crop&w=900&h=900&q=70",
+   "https://images.unsplash.com/photo-1764576504536-dbdfa4cb1d9a?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "whiskas-tuna-in-jelly-adult-cat-wet-food": [
+   "https://images.unsplash.com/photo-1771245906840-7371af0563d6?auto=format&fit=crop&w=900&h=900&q=70",
+   "https://images.unsplash.com/photo-1790808041670-9c6ddc0071ed?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "sheba-chicken-and-salmon-p-t-cat-wet-food": [
+   "https://images.unsplash.com/photo-1790808041670-9c6ddc0071ed?auto=format&fit=crop&w=900&h=900&q=70",
+   "https://images.unsplash.com/photo-1722267432520-24755f9e218d?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "me-o-tuna-and-whitebait-kitten-wet-food": [
+   "https://images.unsplash.com/photo-1722267432520-24755f9e218d?auto=format&fit=crop&w=900&h=900&q=70",
+   "https://images.unsplash.com/photo-1771245906840-7371af0563d6?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "me-o-creamy-lickable-tuna-cat-treats": [
+   "https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=900&h=900&q=70",
+   "https://images.unsplash.com/photo-1592194996308-7b43878e84a6?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "temptations-crunchy-salmon-cat-bites": [
+   "https://images.unsplash.com/photo-1592194996308-7b43878e84a6?auto=format&fit=crop&w=900&h=900&q=70",
+   "https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "kitty-fresh-clumping-bentonite-cat-litter-lavender": [
+   "https://images.unsplash.com/photo-1727510153658-643787acb16a?auto=format&fit=crop&w=900&h=900&q=70",
+   "https://images.unsplash.com/photo-1561948955-570b270e7c36?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "catsan-tofu-flushable-cat-litter-original": [
+   "https://images.unsplash.com/photo-1561948955-570b270e7c36?auto=format&fit=crop&w=900&h=900&q=70",
+   "https://images.unsplash.com/photo-1574144611937-0df059b5ef3e?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "petvogue-covered-cat-litter-box-with-scoop": [
+   "https://images.unsplash.com/photo-1574144611937-0df059b5ef3e?auto=format&fit=crop&w=900&h=900&q=70",
+   "https://images.unsplash.com/photo-1727510153658-643787acb16a?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "trixie-feather-teaser-wand": [
+   "https://images.unsplash.com/photo-1545249390-6bdfa286032f?auto=format&fit=crop&w=900&h=900&q=70",
+   "https://images.unsplash.com/photo-1774544583420-8067e60ecd5c?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "petvogue-sisal-scratch-post-with-ball": [
+   "https://images.unsplash.com/photo-1774544583420-8067e60ecd5c?auto=format&fit=crop&w=900&h=900&q=70",
+   "https://images.unsplash.com/photo-1516750105099-4b8a83e217ee?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "kong-catnip-fish-plush-toy": [
+   "https://images.unsplash.com/photo-1516750105099-4b8a83e217ee?auto=format&fit=crop&w=900&h=900&q=70",
+   "https://images.unsplash.com/photo-1545249390-6bdfa286032f?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "wahl-gentle-cat-shampoo-aloe": [
+   "https://images.unsplash.com/photo-1585137173132-cf49e10ad27d?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "mutt-of-course-plush-donut-cat-bed": [
+   "https://images.unsplash.com/photo-1541188495357-ad2dc89487f4?auto=format&fit=crop&w=900&h=900&q=70",
+   "https://images.unsplash.com/photo-1760110756737-9ea31c02ba45?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "let-s-wag-breakaway-cat-collar-with-bell": [
+   "https://images.unsplash.com/photo-1760110756737-9ea31c02ba45?auto=format&fit=crop&w=900&h=900&q=70",
+   "https://images.unsplash.com/photo-1517451330947-7809dead78d5?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "tetra-tropical-fish-flakes": [
+   "https://images.unsplash.com/photo-1522069169874-c58ec4b76be5?auto=format&fit=crop&w=900&h=900&q=70",
+   "https://images.unsplash.com/photo-1784766029024-fe0adb02c313?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "taiyo-goldfish-floating-pellets": [
+   "https://images.unsplash.com/photo-1784766029024-fe0adb02c313?auto=format&fit=crop&w=900&h=900&q=70",
+   "https://images.unsplash.com/photo-1522069169874-c58ec4b76be5?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "vitapol-budgie-seed-mix": [
+   "https://images.unsplash.com/photo-1560595643-90bb555b2eaa?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "versele-laga-rabbit-pellets-with-timothy-hay": [
+   "https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "pet-clean-enzyme-stain-and-odour-remover": [
+   "https://images.unsplash.com/photo-1794123879942-8b472d993cca?auto=format&fit=crop&w=900&h=900&q=70",
+   "https://images.unsplash.com/photo-1727681200723-9513e4e3c394?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "chom-chom-reusable-pet-hair-lint-roller": [
+   "https://images.unsplash.com/photo-1727681200723-9513e4e3c394?auto=format&fit=crop&w=900&h=900&q=70",
+   "https://images.unsplash.com/photo-1794123879942-8b472d993cca?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "tailskart-proud-dog-parent-tee": [
+   "https://images.unsplash.com/photo-1522276498395-f4f68f7f8454?auto=format&fit=crop&w=900&h=900&q=70",
+   "https://images.unsplash.com/photo-1553322378-eb94e5966b0c?auto=format&fit=crop&w=900&h=900&q=70"
+  ],
+  "tailskart-tailskart-gift-card": [
+   "https://images.unsplash.com/photo-1553322378-eb94e5966b0c?auto=format&fit=crop&w=900&h=900&q=70",
+   "https://images.unsplash.com/photo-1522276498395-f4f68f7f8454?auto=format&fit=crop&w=900&h=900&q=70"
+  ]
+ },
+ "categories": {
+  "dog-dry-food": "https://images.unsplash.com/photo-1591946559594-8c6d3b7391eb?auto=format&fit=crop&w=600&h=600&q=70",
+  "dog-wet-food": "https://images.unsplash.com/photo-1649923625461-2638b4a86d8b?auto=format&fit=crop&w=600&h=600&q=70",
+  "dog-treats": "https://images.unsplash.com/photo-1568640347023-a616a30bc3bd?auto=format&fit=crop&w=600&h=600&q=70",
+  "dog-toys": "https://images.unsplash.com/photo-1535294435445-d7249524ef2e?auto=format&fit=crop&w=600&h=600&q=70",
+  "dog-grooming": "https://images.unsplash.com/photo-1647002380358-fc70ed2f04e0?auto=format&fit=crop&w=600&h=600&q=70",
+  "dog-walk": "https://images.unsplash.com/photo-1773086727839-8d9180b510fc?auto=format&fit=crop&w=600&h=600&q=70",
+  "dog-beds": "https://images.unsplash.com/photo-1581888227599-779811939961?auto=format&fit=crop&w=600&h=600&q=70",
+  "dog-bowls": "https://images.unsplash.com/photo-1767023024653-3d6f74909ccf?auto=format&fit=crop&w=600&h=600&q=70",
+  "dog-clothing": "https://images.unsplash.com/photo-1699686160376-940e512f65f8?auto=format&fit=crop&w=600&h=600&q=70",
+  "cat-dry-food": "https://images.unsplash.com/photo-1764576504536-dbdfa4cb1d9a?auto=format&fit=crop&w=600&h=600&q=70",
+  "cat-wet-food": "https://images.unsplash.com/photo-1771245906840-7371af0563d6?auto=format&fit=crop&w=600&h=600&q=70",
+  "cat-treats": "https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=600&h=600&q=70",
+  "cat-litter": "https://images.unsplash.com/photo-1727510153658-643787acb16a?auto=format&fit=crop&w=600&h=600&q=70",
+  "cat-toys": "https://images.unsplash.com/photo-1545249390-6bdfa286032f?auto=format&fit=crop&w=600&h=600&q=70",
+  "cat-grooming": "https://images.unsplash.com/photo-1585137173132-cf49e10ad27d?auto=format&fit=crop&w=600&h=600&q=70",
+  "cat-accessories": "https://images.unsplash.com/photo-1541188495357-ad2dc89487f4?auto=format&fit=crop&w=600&h=600&q=70",
+  "fish-food": "https://images.unsplash.com/photo-1522069169874-c58ec4b76be5?auto=format&fit=crop&w=600&h=600&q=70",
+  "bird-food": "https://images.unsplash.com/photo-1560595643-90bb555b2eaa?auto=format&fit=crop&w=600&h=600&q=70",
+  "rabbit-food": "https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?auto=format&fit=crop&w=600&h=600&q=70",
+  "home-cleaning": "https://images.unsplash.com/photo-1794123879942-8b472d993cca?auto=format&fit=crop&w=600&h=600&q=70",
+  "merch": "https://images.unsplash.com/photo-1522276498395-f4f68f7f8454?auto=format&fit=crop&w=600&h=600&q=70"
+ },
+ "breeds": {
+  "labrador": "https://images.unsplash.com/photo-1537204696486-967f1b7198c8?auto=format&fit=crop&w=600&h=600&q=70",
+  "golden-retriever": "https://images.unsplash.com/photo-1633722715463-d30f4f325e24?auto=format&fit=crop&w=600&h=600&q=70",
+  "shih-tzu": "https://images.unsplash.com/photo-1534628526458-a8de087b1123?auto=format&fit=crop&w=600&h=600&q=70",
+  "beagle": "https://images.unsplash.com/photo-1707298737261-069e2d529eaa?auto=format&fit=crop&w=600&h=600&q=70",
+  "german-shepherd": "https://images.unsplash.com/photo-1605725657590-b2cf0d31b1a5?auto=format&fit=crop&w=600&h=600&q=70",
+  "indie-dog": "https://images.unsplash.com/photo-1657110605851-ebd3a5fcf650?auto=format&fit=crop&w=600&h=600&q=70",
+  "persian": "https://images.unsplash.com/photo-1548366086-7f1b76106622?auto=format&fit=crop&w=600&h=600&q=70",
+  "siamese": "https://images.unsplash.com/photo-1568152950566-c1bf43f4ab28?auto=format&fit=crop&w=600&h=600&q=70",
+  "indie-cat": "https://images.unsplash.com/photo-1589872267076-a0859175685b?auto=format&fit=crop&w=600&h=600&q=70"
+ }
+}

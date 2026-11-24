@@ -1,0 +1,168 @@
+@import "tailwindcss";
+
+@theme {
+  /* Tailskart brand book v1.0 */
+  --color-brand: #2438c8; /* Ultramarine — header, primary actions */
+  --color-brand-deep: #1a2a9c;
+  --color-brand-soft: #eef1fd;
+  --color-fold: #65b8f2; /* Fold blue — the folded-tape corner only (decorative) */
+  --color-fold-soft: #e7f3fd;
+  --color-accent: #1f5fd6; /* readable mid-blue for links, savings, selection */
+  --color-accent-soft: #e8f0fd;
+  --color-sun: #ffc93c; /* marketplace yellow — deal badges, with ink text only */
+  --color-sun-soft: #fff6d9;
+  --color-cream: #f5f7fc; /* page background */
+  --color-sand: #eceff7;
+  --color-line: #dfe4ef;
+  /* Warm cream from the hero photography — used for a few calm bands so the page keeps one mood. */
+  --color-warm: #f6ebdd;
+  --color-warm-soft: #fbf6ef;
+  --color-ink: #182137;
+  --color-muted: #5b6478;
+
+  /* Partner brands hosted on Tailskart */
+  --color-pharko: #0066a6; /* pharko Clear Blue, on white */
+  --color-pharko-soft: #e6f1f8;
+  --color-ametad: #8a1538; /* placeholder mulberry — replace with Ametad's approved master */
+  --color-ametad-soft: #f8e9ee;
+
+  --font-sans: var(--font-dm-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-dm-sans), ui-sans-serif, system-ui, sans-serif;
+
+  --radius-card: 1rem;
+  --shadow-soft: 0 1px 2px rgb(24 33 55 / 0.05), 0 8px 24px -14px rgb(24 33 55 / 0.16);
+  --shadow-lift: 0 2px 4px rgb(24 33 55 / 0.06), 0 18px 40px -18px rgb(36 56 200 / 0.35);
+}
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: clip;
+}
+
+body {
+  overflow-x: clip;
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-display {
+  letter-spacing: -0.02em;
+}
+
+/* Prices and quantities line up (brand book: tabular numerals). */
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/*
+ * The folded edge — the brand's parcel-tape device. A light-blue triangle at the lower-right
+ * of an ultramarine band, legs two-thirds of the band height. One fold per surface.
+ */
+.fold-band {
+  position: relative;
+  background: var(--color-brand);
+}
+.fold-band::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 66%;
+  max-height: 3rem;
+  aspect-ratio: 1;
+  background: var(--color-fold);
+  clip-path: polygon(100% 0, 100% 100%, 0 100%);
+  pointer-events: none;
+}
+@media (max-width: 767px) {
+  .fold-band::after {
+    max-height: 1.5rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  scrollbar-width: none;
+}
+
+.container-x {
+  width: 100%;
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+@media (min-width: 768px) {
+  .container-x {
+    padding-inline: 1.5rem;
+  }
+}
+
+.prose-tk h2 {
+  font-family: var(--font-display);
+  font-size: 1.375rem;
+  line-height: 1.75rem;
+  color: var(--color-ink);
+  margin: 2rem 0 0.75rem;
+  font-weight: 700;
+}
+.prose-tk h3 {
+  font-weight: 700;
+  margin: 1.5rem 0 0.5rem;
+}
+.prose-tk p {
+  line-height: 1.75;
+  margin: 0 0 1rem;
+  color: #3a4258;
+}
+.prose-tk ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+  margin: 0 0 1rem;
+  color: #3a4258;
+  line-height: 1.75;
+}
+
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.animate-fade-up {
+  animation: fade-up 0.35s ease-out both;
+}
+
+/* Faint paw-print pattern for feature sections. */
+.paw-pattern {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='96' height='96' viewBox='0 0 96 96'%3E%3Cg fill='%232438c8' fill-opacity='0.045'%3E%3Cellipse cx='24' cy='30' rx='7' ry='9'/%3E%3Cellipse cx='40' cy='22' rx='6' ry='8'/%3E%3Cellipse cx='56' cy='30' rx='7' ry='9'/%3E%3Cellipse cx='14' cy='46' rx='5' ry='7'/%3E%3Cpath d='M40 40c-10 0-18 9-18 17 0 6 5 8 9 7 4-1 6-3 9-3s5 2 9 3c4 1 9-1 9-7 0-8-8-17-18-17z'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: 96px 96px;
+}

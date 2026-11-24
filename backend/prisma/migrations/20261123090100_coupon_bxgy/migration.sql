@@ -1,0 +1,1 @@
+ALTER TYPE "CouponType" ADD VALUE 'BXGY';

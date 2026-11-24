@@ -1,0 +1,26 @@
+node_modules
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+
+# build output
+dist
+.next
+out
+*.tsbuildinfo
+
+# local data
+backend/.pgdata
+backend/uploads
+
+# terraform
+infra/terraform/.terraform
+infra/terraform/*.tfstate*
+infra/terraform/terraform.tfvars
+infra/terraform/.terraform.lock.hcl.bak
+
+# private files and old archives
+backend/private-uploads
+*.zip

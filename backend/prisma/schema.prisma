@@ -1,0 +1,559 @@
+// Tailskart database schema (PostgreSQL).
+// All money values are integers in paise (₹1 = 100 paise).
+
+generator client {
+  provider      = "prisma-client-js"
+  binaryTargets = ["native", "linux-musl-openssl-3.0.x", "debian-openssl-3.0.x", "rhel-openssl-3.0.x"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Pet {
+  DOG
+  CAT
+  SMALL
+  PARENT
+}
+
+enum ProductStatus {
+  DRAFT
+  ACTIVE
+  ARCHIVED
+}
+
+enum OrderStatus {
+  PENDING_PAYMENT
+  PLACED
+  PACKED
+  SHIPPED
+  OUT_FOR_DELIVERY
+  DELIVERED
+  CANCELLED
+  RETURNED
+}
+
+enum PaymentStatus {
+  PENDING
+  PAID
+  FAILED
+  REFUNDED
+}
+
+enum PaymentMethod {
+  COD
+  RAZORPAY
+  MOCK
+}
+
+enum ShippingSpeed {
+  STANDARD
+  EXPRESS
+}
+
+enum AdminRole {
+  SUPER_ADMIN
+  ADMIN
+  STAFF
+}
+
+enum CouponType {
+  PERCENT
+  FLAT
+  BXGY
+}
+
+enum ReviewStatus {
+  PENDING
+  APPROVED
+  REJECTED
+}
+
+enum MessageStatus {
+  NEW
+  RESOLVED
+}
+
+// ---------- Catalog ----------
+
+model Category {
+  id        String    @id @default(cuid())
+  slug      String    @unique
+  name      String
+  pet       Pet
+  group     String
+  blurb     String    @default("")
+  imageUrl  String?
+  sortOrder Int       @default(0)
+  isActive  Boolean   @default(true)
+  products  Product[]
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+
+  @@index([pet, sortOrder])
+}
+
+model Breed {
+  id        String   @id @default(cuid())
+  slug      String   @unique
+  name      String
+  pet       Pet
+  tint      String   @default("#f3ece1")
+  note      String   @default("")
+  imageUrl  String?
+  sortOrder Int      @default(0)
+  createdAt DateTime @default(now())
+}
+
+model Product {
+  id          String         @id @default(cuid())
+  slug        String         @unique
+  name        String
+  brand       String
+  pet         Pet
+  categoryId  String
+  category    Category       @relation(fields: [categoryId], references: [id])
+  status      ProductStatus  @default(ACTIVE)
+  description String         @default("")
+  highlights  String[]
+  specs       Json           @default("[]")
+  badge       String?
+  tags        String[]
+  lifeStage   String?
+  breedSize   String?
+  diet        String?
+  flavour     String?
+  /// Option definitions, e.g. [{"name":"Size","values":["1 kg","3 kg"]}]
+  options     Json           @default("[]")
+  videoUrl    String?
+  hsn         String?
+  gstRate     Int            @default(18)
+  artKind     String         @default("bag")
+  tint        String         @default("#f3ece1")
+  rating      Float          @default(0)
+  reviewCount Int            @default(0)
+  /// Denormalised from variants for fast filtering/sorting.
+  minPrice    Int            @default(0)
+  maxDiscount Int            @default(0)
+  images      ProductImage[]
+  variants    Variant[]
+  reviews     Review[]
+  wishlistedBy WishlistItem[]
+  createdAt   DateTime       @default(now())
+  updatedAt   DateTime       @updatedAt
+
+  @@index([status, pet])
+  @@index([categoryId])
+  @@index([brand])
+  @@index([minPrice])
+}
+
+model ProductImage {
+  id        String  @id @default(cuid())
+  productId String
+  product   Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+  url       String
+  key       String?
+  alt       String  @default("")
+  sortOrder Int     @default(0)
+
+  @@index([productId, sortOrder])
+}
+
+model Variant {
+  id        String   @id @default(cuid())
+  productId String
+  product   Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+  label     String
+  sku       String?  @unique
+  price     Int
+  mrp       Int
+  grams     Int?
+  stock     Int      @default(0)
+  barcode   String?
+  /// Option values for this combination, e.g. {"Size":"1 kg","Flavour":"Chicken"}
+  options   Json     @default("{}")
+  imageUrl  String?
+  lowStockAt Int     @default(5)
+  location  String?
+  sortOrder Int      @default(0)
+  isActive  Boolean  @default(true)
+  movements StockMovement[]
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([productId, sortOrder])
+  @@index([barcode])
+}
+
+enum StockReason {
+  RESTOCK
+  ADJUST
+  ORDER
+  CANCEL
+  IMPORT
+  EDIT
+}
+
+model StockMovement {
+  id        String      @id @default(cuid())
+  variantId String
+  variant   Variant     @relation(fields: [variantId], references: [id], onDelete: Cascade)
+  delta     Int
+  balance   Int
+  reason    StockReason
+  note      String?
+  actor     String?
+  createdAt DateTime    @default(now())
+
+  @@index([variantId, createdAt])
+}
+
+// ---------- Customers ----------
+
+model Customer {
+  id          String         @id @default(cuid())
+  phone       String         @unique
+  name        String?
+  email       String?
+  isBlocked   Boolean        @default(false)
+  lastLoginAt DateTime?
+  companyName String?
+  gstin       String?
+  pan         String?
+  tags        String[]
+  notes       String         @default("")
+  points      Int            @default(0)
+  lifetimePoints Int         @default(0)
+  referralCode String?       @unique
+  referredById String?
+  referredBy  Customer?      @relation("Referrals", fields: [referredById], references: [id], onDelete: SetNull)
+  referrals   Customer[]     @relation("Referrals")
+  pointTxns   PointTransaction[]
+  addresses   Address[]
+  pets        PetProfile[]
+  orders      Order[]
+  wishlist    WishlistItem[]
+  reviews     Review[]
+  appointments  AppointmentRequest[]
+  prescriptions PrescriptionRequest[]
+  createdAt   DateTime       @default(now())
+  updatedAt   DateTime       @updatedAt
+}
+
+model OtpCode {
+  id         String    @id @default(cuid())
+  phone      String
+  codeHash   String
+  expiresAt  DateTime
+  attempts   Int       @default(0)
+  consumedAt DateTime?
+  ip         String?
+  createdAt  DateTime  @default(now())
+
+  @@index([phone, createdAt])
+}
+
+model Address {
+  id         String   @id @default(cuid())
+  customerId String
+  customer   Customer @relation(fields: [customerId], references: [id], onDelete: Cascade)
+  name       String
+  phone      String
+  line1      String
+  line2      String?
+  city       String
+  state      String
+  pincode    String
+  label      String   @default("Home")
+  isDefault  Boolean  @default(false)
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@index([customerId])
+}
+
+model PetProfile {
+  id         String    @id @default(cuid())
+  customerId String
+  customer   Customer  @relation(fields: [customerId], references: [id], onDelete: Cascade)
+  name       String
+  type       String
+  breed      String?
+  birthday   DateTime?
+  createdAt  DateTime  @default(now())
+
+  @@index([customerId])
+}
+
+model WishlistItem {
+  customerId String
+  customer   Customer @relation(fields: [customerId], references: [id], onDelete: Cascade)
+  productId  String
+  product    Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+  createdAt  DateTime @default(now())
+
+  @@id([customerId, productId])
+}
+
+// ---------- Orders ----------
+
+model Order {
+  id                String        @id @default(cuid())
+  seq               Int           @unique @default(autoincrement())
+  customerId        String
+  customer          Customer      @relation(fields: [customerId], references: [id])
+  status            OrderStatus   @default(PENDING_PAYMENT)
+  paymentStatus     PaymentStatus @default(PENDING)
+  paymentMethod     PaymentMethod
+  shippingSpeed     ShippingSpeed @default(STANDARD)
+  mrpTotal          Int
+  subtotal          Int
+  discount          Int           @default(0)
+  shippingFee       Int           @default(0)
+  total             Int
+  couponCode        String?
+  pointsRedeemed    Int           @default(0)
+  pointsEarned      Int           @default(0)
+  billingGstin      String?
+  billingCompany    String?
+  address           Json
+  notes             String?
+  razorpayOrderId   String?       @unique
+  razorpayPaymentId String?
+  placedAt          DateTime?
+  items             OrderItem[]
+  events            OrderEvent[]
+  createdAt         DateTime      @default(now())
+  updatedAt         DateTime      @updatedAt
+
+  @@index([customerId, createdAt])
+  @@index([status, createdAt])
+}
+
+model OrderItem {
+  id           String  @id @default(cuid())
+  orderId      String
+  order        Order   @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  productId    String?
+  variantId    String?
+  slug         String
+  name         String
+  brand        String
+  variantLabel String
+  sku          String?
+  image        String?
+  artKind      String  @default("bag")
+  tint         String  @default("#f3ece1")
+  price        Int
+  mrp          Int
+  qty          Int
+  hsn          String?
+  gstRate      Int     @default(18)
+
+  @@index([orderId])
+}
+
+model OrderEvent {
+  id        String      @id @default(cuid())
+  orderId   String
+  order     Order       @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  status    OrderStatus
+  note      String?
+  actor     String?
+  createdAt DateTime    @default(now())
+
+  @@index([orderId, createdAt])
+}
+
+model Coupon {
+  id               String     @id @default(cuid())
+  code             String     @unique
+  description      String     @default("")
+  type             CouponType
+  /// Percent (1-100) for PERCENT, paise for FLAT.
+  value            Int
+  maxDiscount      Int?
+  minOrder         Int        @default(0)
+  startsAt         DateTime?
+  endsAt           DateTime?
+  usageLimit       Int?
+  usedCount        Int        @default(0)
+  perCustomerLimit Int?
+  firstOrderOnly   Boolean    @default(false)
+  /// ALL, CATEGORY, BRAND or PRODUCT — which cart lines count towards this coupon.
+  scope            String     @default("ALL")
+  scopeIds         String[]
+  minQty           Int        @default(0)
+  /// Buy X get Y: for every buyQty+getQty eligible units, the cheapest getQty are free.
+  buyQty           Int?
+  getQty           Int?
+  isPublic         Boolean    @default(true)
+  badgeText        String?
+  isActive         Boolean    @default(true)
+  createdAt        DateTime   @default(now())
+  updatedAt        DateTime   @updatedAt
+}
+
+model Review {
+  id         String       @id @default(cuid())
+  productId  String
+  product    Product      @relation(fields: [productId], references: [id], onDelete: Cascade)
+  customerId String
+  customer   Customer     @relation(fields: [customerId], references: [id], onDelete: Cascade)
+  rating     Int
+  title      String
+  body       String
+  status     ReviewStatus @default(PENDING)
+  verified   Boolean      @default(false)
+  createdAt  DateTime     @default(now())
+  updatedAt  DateTime     @updatedAt
+
+  @@unique([productId, customerId])
+  @@index([productId, status])
+}
+
+// ---------- Admin & misc ----------
+
+model AdminUser {
+  id           String    @id @default(cuid())
+  email        String    @unique
+  name         String
+  passwordHash String
+  role         AdminRole @default(STAFF)
+  notificationsSeenAt DateTime?
+  isActive     Boolean   @default(true)
+  lastLoginAt  DateTime?
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+}
+
+model ContactMessage {
+  id        String        @id @default(cuid())
+  name      String
+  phone     String?
+  email     String?
+  topic     String
+  message   String
+  status    MessageStatus @default(NEW)
+  createdAt DateTime      @default(now())
+}
+
+model NewsletterSubscriber {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  createdAt DateTime @default(now())
+}
+
+// ---------- Care routes hosted on Tailskart (brand book: ametad = clinical care, pharko = pharmacy) ----------
+
+enum AppointmentStatus {
+  REQUESTED
+  CONFIRMED
+  COMPLETED
+  CANCELLED
+}
+
+enum PrescriptionStatus {
+  RECEIVED
+  IN_REVIEW
+  NEEDS_INFO
+  READY_FOR_PICKUP
+  COLLECTED
+  REJECTED
+}
+
+/// A request to book at an Ametad hospital. Ametad staff confirm by phone.
+model AppointmentRequest {
+  id            String            @id @default(cuid())
+  seq           Int               @unique @default(autoincrement())
+  customerId    String?
+  customer      Customer?         @relation(fields: [customerId], references: [id], onDelete: SetNull)
+  name          String
+  phone         String
+  email         String?
+  petName       String
+  species       String
+  reason        String
+  preferredDate DateTime
+  preferredSlot String
+  branch        String
+  status        AppointmentStatus @default(REQUESTED)
+  staffNote     String?
+  createdAt     DateTime          @default(now())
+  updatedAt     DateTime          @updatedAt
+
+  @@index([status, createdAt])
+  @@index([customerId])
+}
+
+/// A prescription submitted to the pharko counter. Files are stored privately (never on the public CDN).
+model PrescriptionRequest {
+  id          String             @id @default(cuid())
+  seq         Int                @unique @default(autoincrement())
+  customerId  String
+  customer    Customer           @relation(fields: [customerId], references: [id], onDelete: Cascade)
+  petName     String
+  branch      String
+  note        String?
+  fileKey     String
+  fileName    String
+  fileMime    String
+  fileSize    Int
+  status      PrescriptionStatus @default(RECEIVED)
+  staffNote   String?
+  readyAt     DateTime?
+  collectedAt DateTime?
+  createdAt   DateTime           @default(now())
+  updatedAt   DateTime           @updatedAt
+
+  @@index([status, createdAt])
+  @@index([customerId])
+}
+
+// ---------- Store settings, loyalty, content ----------
+
+model Setting {
+  key       String   @id
+  value     Json
+  updatedBy String?
+  updatedAt DateTime @updatedAt
+}
+
+enum PointReason {
+  ORDER
+  REVIEW
+  REFERRAL
+  REDEEM
+  ADMIN
+  REVERSAL
+}
+
+model PointTransaction {
+  id         String      @id @default(cuid())
+  customerId String
+  customer   Customer    @relation(fields: [customerId], references: [id], onDelete: Cascade)
+  points     Int
+  reason     PointReason
+  note       String?
+  orderId    String?
+  reviewId   String?
+  actor      String?
+  createdAt  DateTime    @default(now())
+
+  @@index([customerId, createdAt])
+  @@unique([reason, orderId])
+  @@unique([reason, reviewId])
+}
+
+model ContentPage {
+  slug      String   @id
+  title     String
+  body      String   @default("")
+  isPublished Boolean @default(true)
+  updatedBy String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}

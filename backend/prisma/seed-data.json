@@ -1,0 +1,6004 @@
+{
+ "categories": [
+  {
+   "slug": "dog-dry-food",
+   "name": "Dry Food",
+   "pet": "dog",
+   "group": "Food",
+   "blurb": "Everyday kibble for puppies, adults and seniors.",
+   "sortOrder": 0
+  },
+  {
+   "slug": "dog-wet-food",
+   "name": "Wet Food",
+   "pet": "dog",
+   "group": "Food",
+   "blurb": "Gravies, chunks and loaves for extra-tasty meals.",
+   "sortOrder": 1
+  },
+  {
+   "slug": "dog-treats",
+   "name": "Treats & Chews",
+   "pet": "dog",
+   "group": "Treats",
+   "blurb": "Biscuits, jerky, dental sticks and training rewards.",
+   "sortOrder": 2
+  },
+  {
+   "slug": "dog-toys",
+   "name": "Toys",
+   "pet": "dog",
+   "group": "Play",
+   "blurb": "Chew toys, fetch balls and puzzle feeders.",
+   "sortOrder": 3
+  },
+  {
+   "slug": "dog-grooming",
+   "name": "Grooming",
+   "pet": "dog",
+   "group": "Care",
+   "blurb": "Shampoos, brushes, wipes and nail care.",
+   "sortOrder": 4
+  },
+  {
+   "slug": "dog-walk",
+   "name": "Collars, Leashes & Harnesses",
+   "pet": "dog",
+   "group": "Accessories",
+   "blurb": "Comfortable gear for every walk.",
+   "sortOrder": 5
+  },
+  {
+   "slug": "dog-beds",
+   "name": "Beds & Mats",
+   "pet": "dog",
+   "group": "Accessories",
+   "blurb": "Soft spots for long naps.",
+   "sortOrder": 6
+  },
+  {
+   "slug": "dog-bowls",
+   "name": "Bowls & Feeders",
+   "pet": "dog",
+   "group": "Accessories",
+   "blurb": "Steel, ceramic and slow-feed bowls.",
+   "sortOrder": 7
+  },
+  {
+   "slug": "dog-clothing",
+   "name": "Clothing",
+   "pet": "dog",
+   "group": "Accessories",
+   "blurb": "Sweaters, raincoats and festive wear.",
+   "sortOrder": 8
+  },
+  {
+   "slug": "cat-dry-food",
+   "name": "Dry Food",
+   "pet": "cat",
+   "group": "Food",
+   "blurb": "Crunchy kibble for kittens and adult cats.",
+   "sortOrder": 9
+  },
+  {
+   "slug": "cat-wet-food",
+   "name": "Wet Food",
+   "pet": "cat",
+   "group": "Food",
+   "blurb": "Pouches, pâtés and tuna treats.",
+   "sortOrder": 10
+  },
+  {
+   "slug": "cat-treats",
+   "name": "Treats",
+   "pet": "cat",
+   "group": "Treats",
+   "blurb": "Creamy licks and crunchy bites.",
+   "sortOrder": 11
+  },
+  {
+   "slug": "cat-litter",
+   "name": "Litter & Boxes",
+   "pet": "cat",
+   "group": "Litter",
+   "blurb": "Clumping litter, boxes and scoops.",
+   "sortOrder": 12
+  },
+  {
+   "slug": "cat-toys",
+   "name": "Toys & Scratchers",
+   "pet": "cat",
+   "group": "Play",
+   "blurb": "Wands, tunnels and scratch posts.",
+   "sortOrder": 13
+  },
+  {
+   "slug": "cat-grooming",
+   "name": "Grooming",
+   "pet": "cat",
+   "group": "Care",
+   "blurb": "Gentle shampoos and de-shedding tools.",
+   "sortOrder": 14
+  },
+  {
+   "slug": "cat-accessories",
+   "name": "Beds & Accessories",
+   "pet": "cat",
+   "group": "Accessories",
+   "blurb": "Beds, carriers, bowls and collars.",
+   "sortOrder": 15
+  },
+  {
+   "slug": "fish-food",
+   "name": "Fish Food",
+   "pet": "small",
+   "group": "Food",
+   "blurb": "Flakes and pellets for aquarium fish.",
+   "sortOrder": 16
+  },
+  {
+   "slug": "bird-food",
+   "name": "Bird Food",
+   "pet": "small",
+   "group": "Food",
+   "blurb": "Seed mixes for budgies and parrots.",
+   "sortOrder": 17
+  },
+  {
+   "slug": "rabbit-food",
+   "name": "Rabbit & Hamster",
+   "pet": "small",
+   "group": "Food",
+   "blurb": "Pellets, hay and chew sticks.",
+   "sortOrder": 18
+  },
+  {
+   "slug": "home-cleaning",
+   "name": "Home & Cleaning",
+   "pet": "parent",
+   "group": "Home",
+   "blurb": "Stain removers, odour sprays and lint rollers.",
+   "sortOrder": 19
+  },
+  {
+   "slug": "merch",
+   "name": "Merch & Gifts",
+   "pet": "parent",
+   "group": "Gifts",
+   "blurb": "Tees, mugs and gift cards for pet lovers.",
+   "sortOrder": 20
+  },
+  {
+   "slug": "dog-tick-flea",
+   "name": "Tick & Flea",
+   "pet": "dog",
+   "group": "Pharmacy",
+   "blurb": "Chewables, spot-ons and shampoos that keep ticks and fleas away.",
+   "sortOrder": 20
+  },
+  {
+   "slug": "dog-medicines",
+   "name": "Medicines",
+   "pet": "dog",
+   "group": "Pharmacy",
+   "blurb": "Dewormers, skin, ear and everyday care for dogs.",
+   "sortOrder": 21
+  },
+  {
+   "slug": "dog-supplements",
+   "name": "Supplements",
+   "pet": "dog",
+   "group": "Pharmacy",
+   "blurb": "Joint, coat, gut and liver support.",
+   "sortOrder": 22
+  },
+  {
+   "slug": "cat-medicines",
+   "name": "Medicines & Tick Care",
+   "pet": "cat",
+   "group": "Pharmacy",
+   "blurb": "Dewormers, spot-ons and kidney care for cats.",
+   "sortOrder": 20
+  },
+  {
+   "slug": "cat-supplements",
+   "name": "Supplements",
+   "pet": "cat",
+   "group": "Pharmacy",
+   "blurb": "Hairball, immunity and coat support.",
+   "sortOrder": 21
+  },
+  {
+   "slug": "small-pet-accessories",
+   "name": "Habitats & Accessories",
+   "pet": "small",
+   "group": "Accessories",
+   "blurb": "Aquarium gear, wheels, swings and hideouts.",
+   "sortOrder": 10
+  }
+ ],
+ "breeds": [
+  {
+   "slug": "labrador",
+   "name": "Labrador",
+   "pet": "dog",
+   "tint": "#fbe3b9",
+   "note": "Big appetite, bigger heart.",
+   "sortOrder": 0
+  },
+  {
+   "slug": "golden-retriever",
+   "name": "Golden Retriever",
+   "pet": "dog",
+   "tint": "#f8d9c4",
+   "note": "Sunny, gentle and always hungry.",
+   "sortOrder": 1
+  },
+  {
+   "slug": "shih-tzu",
+   "name": "Shih Tzu",
+   "pet": "dog",
+   "tint": "#f2d7e6",
+   "note": "Small dog, royal coat.",
+   "sortOrder": 2
+  },
+  {
+   "slug": "beagle",
+   "name": "Beagle",
+   "pet": "dog",
+   "tint": "#f1cfc2",
+   "note": "Nose first, always.",
+   "sortOrder": 3
+  },
+  {
+   "slug": "german-shepherd",
+   "name": "German Shepherd",
+   "pet": "dog",
+   "tint": "#e8dccc",
+   "note": "Loyal, smart and active.",
+   "sortOrder": 4
+  },
+  {
+   "slug": "indie-dog",
+   "name": "Indie Dog",
+   "pet": "dog",
+   "tint": "#d6ecc9",
+   "note": "Tough, clever and full of love.",
+   "sortOrder": 5
+  },
+  {
+   "slug": "persian",
+   "name": "Persian",
+   "pet": "cat",
+   "tint": "#e9dcf5",
+   "note": "Flat face, fluffy coat.",
+   "sortOrder": 6
+  },
+  {
+   "slug": "siamese",
+   "name": "Siamese",
+   "pet": "cat",
+   "tint": "#cfe3f6",
+   "note": "Chatty and curious.",
+   "sortOrder": 7
+  },
+  {
+   "slug": "indie-cat",
+   "name": "Indie Cat",
+   "pet": "cat",
+   "tint": "#d4ecf2",
+   "note": "Street smart and sweet.",
+   "sortOrder": 8
+  }
+ ],
+ "products": [
+  {
+   "slug": "drools-chicken-and-egg-adult-dog-dry-food",
+   "name": "Chicken & Egg Adult Dog Dry Food",
+   "brand": "Drools",
+   "pet": "dog",
+   "category": "dog-dry-food",
+   "kind": "bag",
+   "tint": "#f8d9c4",
+   "badge": "Bestseller",
+   "tags": [
+    "labrador",
+    "indie-dog",
+    "golden-retriever",
+    "german-shepherd",
+    "beagle"
+   ],
+   "lifeStage": "Adult",
+   "breedSize": "All",
+   "diet": "Non-Veg",
+   "flavour": "Chicken",
+   "description": "A complete everyday meal built around real chicken and egg, with balanced protein for active adult dogs and omega fatty acids for a glossy coat.",
+   "highlights": [
+    "Real chicken as the first ingredient",
+    "Supports healthy digestion",
+    "Omega 3 & 6 for skin and coat",
+    "No artificial colours"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Drools"
+    ],
+    [
+     "For",
+     "Dogs"
+    ],
+    [
+     "Life stage",
+     "Adult"
+    ],
+    [
+     "Breed size",
+     "All"
+    ],
+    [
+     "Diet",
+     "Non-Veg"
+    ],
+    [
+     "Flavour",
+     "Chicken"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "3kg",
+     "price": 60400,
+     "mrp": 67000,
+     "grams": 3000
+    },
+    {
+     "label": "10kg",
+     "price": 197900,
+     "mrp": 225000,
+     "grams": 10000
+    },
+    {
+     "label": "20kg",
+     "price": 349500,
+     "mrp": 399900,
+     "grams": 20000
+    }
+   ]
+  },
+  {
+   "slug": "drools-chicken-and-egg-puppy-dog-dry-food",
+   "name": "Chicken & Egg Puppy Dog Dry Food",
+   "brand": "Drools",
+   "pet": "dog",
+   "category": "dog-dry-food",
+   "kind": "bag",
+   "tint": "#fbe3b9",
+   "badge": "Bestseller",
+   "tags": [
+    "labrador",
+    "golden-retriever",
+    "indie-dog",
+    "beagle"
+   ],
+   "lifeStage": "Puppy",
+   "breedSize": "All",
+   "diet": "Non-Veg",
+   "flavour": "Chicken",
+   "description": "Growth-focused nutrition for puppies up to 12 months, with DHA for brain development and calcium for strong bones.",
+   "highlights": [
+    "DHA for learning and vision",
+    "Calcium & phosphorus for bones",
+    "Small, easy-to-chew kibble",
+    "Made for all breed sizes"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Drools"
+    ],
+    [
+     "For",
+     "Dogs"
+    ],
+    [
+     "Life stage",
+     "Puppy"
+    ],
+    [
+     "Breed size",
+     "All"
+    ],
+    [
+     "Diet",
+     "Non-Veg"
+    ],
+    [
+     "Flavour",
+     "Chicken"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "1.2kg",
+     "price": 27800,
+     "mrp": 31000,
+     "grams": 1200
+    },
+    {
+     "label": "3kg",
+     "price": 69900,
+     "mrp": 78000,
+     "grams": 3000
+    },
+    {
+     "label": "10kg",
+     "price": 229900,
+     "mrp": 256000,
+     "grams": 10000
+    },
+    {
+     "label": "20kg",
+     "price": 354200,
+     "mrp": 384900,
+     "grams": 20000
+    }
+   ]
+  },
+  {
+   "slug": "royal-canin-maxi-puppy-dog-dry-food",
+   "name": "Maxi Puppy Dog Dry Food",
+   "brand": "Royal Canin",
+   "pet": "dog",
+   "category": "dog-dry-food",
+   "kind": "bag",
+   "tint": "#f6cfcf",
+   "badge": "Tailskart Pick",
+   "tags": [
+    "labrador",
+    "golden-retriever",
+    "german-shepherd"
+   ],
+   "lifeStage": "Puppy",
+   "breedSize": "Large",
+   "diet": "Non-Veg",
+   "flavour": "Chicken",
+   "description": "Tailored for large-breed puppies from 2 to 15 months, helping support steady growth, natural defences and digestive health.",
+   "highlights": [
+    "For puppies with adult weight 26–44 kg",
+    "Antioxidant complex for immunity",
+    "Highly digestible proteins",
+    "Joint support from day one"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Royal Canin"
+    ],
+    [
+     "For",
+     "Dogs"
+    ],
+    [
+     "Life stage",
+     "Puppy"
+    ],
+    [
+     "Breed size",
+     "Large"
+    ],
+    [
+     "Diet",
+     "Non-Veg"
+    ],
+    [
+     "Flavour",
+     "Chicken"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "1kg",
+     "price": 102100,
+     "mrp": 111000,
+     "grams": 1000
+    },
+    {
+     "label": "4kg",
+     "price": 355500,
+     "mrp": 404000,
+     "grams": 4000
+    },
+    {
+     "label": "10kg",
+     "price": 741000,
+     "mrp": 842000,
+     "grams": 10000
+    }
+   ]
+  },
+  {
+   "slug": "royal-canin-shih-tzu-adult-dog-dry-food",
+   "name": "Shih Tzu Adult Dog Dry Food",
+   "brand": "Royal Canin",
+   "pet": "dog",
+   "category": "dog-dry-food",
+   "kind": "bag",
+   "tint": "#f2d7e6",
+   "badge": null,
+   "tags": [
+    "shih-tzu"
+   ],
+   "lifeStage": "Adult",
+   "breedSize": "Small",
+   "diet": "Non-Veg",
+   "flavour": "Chicken",
+   "description": "A breed-specific recipe with a kibble shape designed for the Shih Tzu's short muzzle, plus nutrients that care for its long coat.",
+   "highlights": [
+    "Kibble shaped for short muzzles",
+    "Supports skin & long coat",
+    "Helps reduce stool odour",
+    "For dogs over 10 months"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Royal Canin"
+    ],
+    [
+     "For",
+     "Dogs"
+    ],
+    [
+     "Life stage",
+     "Adult"
+    ],
+    [
+     "Breed size",
+     "Small"
+    ],
+    [
+     "Diet",
+     "Non-Veg"
+    ],
+    [
+     "Flavour",
+     "Chicken"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "500g",
+     "price": 69900,
+     "mrp": 76000,
+     "grams": 500
+    },
+    {
+     "label": "1.5kg",
+     "price": 184900,
+     "mrp": 201000,
+     "grams": 1500
+    }
+   ]
+  },
+  {
+   "slug": "pedigree-chicken-and-vegetables-adult-dog-dry-food",
+   "name": "Chicken & Vegetables Adult Dog Dry Food",
+   "brand": "Pedigree",
+   "pet": "dog",
+   "category": "dog-dry-food",
+   "kind": "bag",
+   "tint": "#fde8a8",
+   "badge": "Deal",
+   "tags": [
+    "indie-dog",
+    "labrador",
+    "beagle"
+   ],
+   "lifeStage": "Adult",
+   "breedSize": "All",
+   "diet": "Non-Veg",
+   "flavour": "Chicken",
+   "description": "A trusted daily meal with chicken and vegetables, fortified with vitamins and minerals for a healthy, happy adult dog.",
+   "highlights": [
+    "Complete & balanced",
+    "Vitamin E for immunity",
+    "Fibre for digestion",
+    "Great value large packs"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Pedigree"
+    ],
+    [
+     "For",
+     "Dogs"
+    ],
+    [
+     "Life stage",
+     "Adult"
+    ],
+    [
+     "Breed size",
+     "All"
+    ],
+    [
+     "Diet",
+     "Non-Veg"
+    ],
+    [
+     "Flavour",
+     "Chicken"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "1.2kg",
+     "price": 29900,
+     "mrp": 33000,
+     "grams": 1200
+    },
+    {
+     "label": "3kg",
+     "price": 69900,
+     "mrp": 78000,
+     "grams": 3000
+    },
+    {
+     "label": "10kg",
+     "price": 204900,
+     "mrp": 235000,
+     "grams": 10000
+    },
+    {
+     "label": "20kg",
+     "price": 340600,
+     "mrp": 390000,
+     "grams": 20000
+    }
+   ]
+  },
+  {
+   "slug": "drools-veg-adult-dog-dry-food",
+   "name": "Veg Adult Dog Dry Food",
+   "brand": "Drools",
+   "pet": "dog",
+   "category": "dog-dry-food",
+   "kind": "bag",
+   "tint": "#d6ecc9",
+   "badge": null,
+   "tags": [
+    "indie-dog"
+   ],
+   "lifeStage": "Adult",
+   "breedSize": "All",
+   "diet": "Veg",
+   "flavour": "Vegetable",
+   "description": "A fully vegetarian recipe with plant proteins, grains and vegetables, balanced for adult dogs in vegetarian homes.",
+   "highlights": [
+    "100% vegetarian",
+    "Balanced plant protein",
+    "Added vitamins & minerals",
+    "Gentle on the stomach"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Drools"
+    ],
+    [
+     "For",
+     "Dogs"
+    ],
+    [
+     "Life stage",
+     "Adult"
+    ],
+    [
+     "Breed size",
+     "All"
+    ],
+    [
+     "Diet",
+     "Veg"
+    ],
+    [
+     "Flavour",
+     "Vegetable"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "3kg",
+     "price": 54900,
+     "mrp": 61000,
+     "grams": 3000
+    },
+    {
+     "label": "10kg",
+     "price": 169900,
+     "mrp": 190000,
+     "grams": 10000
+    }
+   ]
+  },
+  {
+   "slug": "farmina-nandd-grain-free-lamb-and-blueberry-adult-dog-dry-food",
+   "name": "Grain Free Lamb & Blueberry Adult Dog Dry Food",
+   "brand": "Farmina N&D",
+   "pet": "dog",
+   "category": "dog-dry-food",
+   "kind": "bag",
+   "tint": "#d9d6f3",
+   "badge": "New",
+   "tags": [
+    "golden-retriever",
+    "beagle"
+   ],
+   "lifeStage": "Adult",
+   "breedSize": "Medium",
+   "diet": "Non-Veg",
+   "flavour": "Lamb",
+   "description": "A premium grain-free recipe with high animal protein from lamb, plus blueberries and vegetables for antioxidants.",
+   "highlights": [
+    "Grain free",
+    "High animal protein",
+    "Low glycaemic recipe",
+    "No artificial preservatives"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Farmina N&D"
+    ],
+    [
+     "For",
+     "Dogs"
+    ],
+    [
+     "Life stage",
+     "Adult"
+    ],
+    [
+     "Breed size",
+     "Medium"
+    ],
+    [
+     "Diet",
+     "Non-Veg"
+    ],
+    [
+     "Flavour",
+     "Lamb"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "800g",
+     "price": 134900,
+     "mrp": 149900,
+     "grams": 800
+    },
+    {
+     "label": "2.5kg",
+     "price": 349900,
+     "mrp": 389000,
+     "grams": 2500
+    },
+    {
+     "label": "7kg",
+     "price": 819900,
+     "mrp": 911000,
+     "grams": 7000
+    }
+   ]
+  },
+  {
+   "slug": "pedigree-chicken-and-liver-chunks-in-gravy-puppy-wet-food",
+   "name": "Chicken & Liver Chunks in Gravy Puppy Wet Food",
+   "brand": "Pedigree",
+   "pet": "dog",
+   "category": "dog-wet-food",
+   "kind": "pouch",
+   "tint": "#fde2c2",
+   "badge": null,
+   "tags": [
+    "shih-tzu",
+    "beagle"
+   ],
+   "lifeStage": "Puppy",
+   "breedSize": "All",
+   "diet": "Non-Veg",
+   "flavour": "Chicken",
+   "description": "Tender chunks in a rich gravy that puppies love, great as a full meal or mixed with dry food.",
+   "highlights": [
+    "Soft chunks for small mouths",
+    "Adds hydration to meals",
+    "Complete & balanced",
+    "Easy tear pouch"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Pedigree"
+    ],
+    [
+     "For",
+     "Dogs"
+    ],
+    [
+     "Life stage",
+     "Puppy"
+    ],
+    [
+     "Breed size",
+     "All"
+    ],
+    [
+     "Diet",
+     "Non-Veg"
+    ],
+    [
+     "Flavour",
+     "Chicken"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "15 x 70g",
+     "price": 57500,
+     "mrp": 67500,
+     "grams": 1050
+    },
+    {
+     "label": "30 x 70g",
+     "price": 109900,
+     "mrp": 135000,
+     "grams": 2100
+    }
+   ]
+  },
+  {
+   "slug": "drools-real-chicken-gravy-adult-dog-wet-food",
+   "name": "Real Chicken Gravy Adult Dog Wet Food",
+   "brand": "Drools",
+   "pet": "dog",
+   "category": "dog-wet-food",
+   "kind": "pouch",
+   "tint": "#f9d4b8",
+   "badge": null,
+   "tags": [],
+   "lifeStage": "Adult",
+   "breedSize": "All",
+   "diet": "Non-Veg",
+   "flavour": "Chicken",
+   "description": "Shredded real chicken in a light gravy — a tasty topper to make everyday kibble exciting.",
+   "highlights": [
+    "Real chicken pieces",
+    "Great kibble topper",
+    "No added colours",
+    "Resealable pack"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Drools"
+    ],
+    [
+     "For",
+     "Dogs"
+    ],
+    [
+     "Life stage",
+     "Adult"
+    ],
+    [
+     "Breed size",
+     "All"
+    ],
+    [
+     "Diet",
+     "Non-Veg"
+    ],
+    [
+     "Flavour",
+     "Chicken"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "12 x 150g",
+     "price": 79900,
+     "mrp": 90000,
+     "grams": 1800
+    }
+   ]
+  },
+  {
+   "slug": "purepet-real-chicken-biscuit-dog-treats",
+   "name": "Real Chicken Biscuit Dog Treats",
+   "brand": "Purepet",
+   "pet": "dog",
+   "category": "dog-treats",
+   "kind": "jar",
+   "tint": "#f6dcae",
+   "badge": "Bestseller",
+   "tags": [
+    "indie-dog",
+    "labrador"
+   ],
+   "lifeStage": "All",
+   "breedSize": "All",
+   "diet": "Non-Veg",
+   "flavour": "Chicken",
+   "description": "Crunchy baked biscuits with real chicken — perfect for rewards, training or just because.",
+   "highlights": [
+    "Baked, not fried",
+    "Crunch helps clean teeth",
+    "Great for training",
+    "Resealable jar"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Purepet"
+    ],
+    [
+     "For",
+     "Dogs"
+    ],
+    [
+     "Life stage",
+     "All"
+    ],
+    [
+     "Breed size",
+     "All"
+    ],
+    [
+     "Diet",
+     "Non-Veg"
+    ],
+    [
+     "Flavour",
+     "Chicken"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "455g",
+     "price": 17300,
+     "mrp": 19900,
+     "grams": 455
+    },
+    {
+     "label": "905g",
+     "price": 31900,
+     "mrp": 37000,
+     "grams": 905
+    }
+   ]
+  },
+  {
+   "slug": "chip-chops-sun-dried-chicken-jerky-dog-treats",
+   "name": "Sun Dried Chicken Jerky Dog Treats",
+   "brand": "Chip Chops",
+   "pet": "dog",
+   "category": "dog-treats",
+   "kind": "treat",
+   "tint": "#f3c9a8",
+   "badge": null,
+   "tags": [
+    "golden-retriever",
+    "german-shepherd"
+   ],
+   "lifeStage": "All",
+   "breedSize": "All",
+   "diet": "Non-Veg",
+   "flavour": "Chicken",
+   "description": "Slow sun-dried strips of chicken with a chewy texture dogs go crazy for.",
+   "highlights": [
+    "High protein",
+    "Single-protein recipe",
+    "Chewy texture",
+    "Break into training bites"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Chip Chops"
+    ],
+    [
+     "For",
+     "Dogs"
+    ],
+    [
+     "Life stage",
+     "All"
+    ],
+    [
+     "Breed size",
+     "All"
+    ],
+    [
+     "Diet",
+     "Non-Veg"
+    ],
+    [
+     "Flavour",
+     "Chicken"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "70g",
+     "price": 21400,
+     "mrp": 22500,
+     "grams": 70
+    },
+    {
+     "label": "250g",
+     "price": 59900,
+     "mrp": 65000,
+     "grams": 250
+    }
+   ]
+  },
+  {
+   "slug": "pedigree-dental-care-sticks-for-medium-dogs",
+   "name": "Dental Care Sticks for Medium Dogs",
+   "brand": "Pedigree",
+   "pet": "dog",
+   "category": "dog-treats",
+   "kind": "treat",
+   "tint": "#d5ecd9",
+   "badge": null,
+   "tags": [
+    "beagle",
+    "indie-dog"
+   ],
+   "lifeStage": "Adult",
+   "breedSize": "Medium",
+   "diet": "Non-Veg",
+   "flavour": null,
+   "description": "An X-shaped daily chew that helps reduce tartar build-up and keeps breath fresher.",
+   "highlights": [
+    "Reduces tartar build-up",
+    "Freshens breath",
+    "One stick a day",
+    "Low fat"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Pedigree"
+    ],
+    [
+     "For",
+     "Dogs"
+    ],
+    [
+     "Life stage",
+     "Adult"
+    ],
+    [
+     "Breed size",
+     "Medium"
+    ],
+    [
+     "Diet",
+     "Non-Veg"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "7 sticks",
+     "price": 14900,
+     "mrp": 17000,
+     "grams": 180
+    },
+    {
+     "label": "28 sticks",
+     "price": 54900,
+     "mrp": 64000,
+     "grams": 720
+    }
+   ]
+  },
+  {
+   "slug": "wiggles-peanut-butter-training-bites",
+   "name": "Peanut Butter Training Bites",
+   "brand": "Wiggles",
+   "pet": "dog",
+   "category": "dog-treats",
+   "kind": "jar",
+   "tint": "#f0d4a8",
+   "badge": "New",
+   "tags": [],
+   "lifeStage": "All",
+   "breedSize": "All",
+   "diet": "Veg",
+   "flavour": "Peanut Butter",
+   "description": "Small, soft vegetarian bites made for quick rewards during training sessions.",
+   "highlights": [
+    "Vegetarian",
+    "Pea-sized soft bites",
+    "Low calorie",
+    "No added sugar"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Wiggles"
+    ],
+    [
+     "For",
+     "Dogs"
+    ],
+    [
+     "Life stage",
+     "All"
+    ],
+    [
+     "Breed size",
+     "All"
+    ],
+    [
+     "Diet",
+     "Veg"
+    ],
+    [
+     "Flavour",
+     "Peanut Butter"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "150g",
+     "price": 24900,
+     "mrp": 29900,
+     "grams": 150
+    }
+   ]
+  },
+  {
+   "slug": "kong-classic-rubber-chew-toy",
+   "name": "Classic Rubber Chew Toy",
+   "brand": "Kong",
+   "pet": "dog",
+   "category": "dog-toys",
+   "kind": "toy",
+   "tint": "#f8c9c4",
+   "badge": "Tailskart Pick",
+   "tags": [
+    "labrador",
+    "german-shepherd",
+    "golden-retriever",
+    "beagle"
+   ],
+   "lifeStage": "All",
+   "breedSize": "All",
+   "diet": null,
+   "flavour": null,
+   "description": "A bouncy natural-rubber toy you can stuff with treats — keeps dogs busy and happy for hours.",
+   "highlights": [
+    "Durable natural rubber",
+    "Stuff with treats or peanut butter",
+    "Unpredictable bounce",
+    "Dishwasher safe"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Kong"
+    ],
+    [
+     "For",
+     "Dogs"
+    ],
+    [
+     "Life stage",
+     "All"
+    ],
+    [
+     "Breed size",
+     "All"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "Small",
+     "price": 89900,
+     "mrp": 105000,
+     "grams": null
+    },
+    {
+     "label": "Medium",
+     "price": 119900,
+     "mrp": 135000,
+     "grams": null
+    },
+    {
+     "label": "Large",
+     "price": 149900,
+     "mrp": 165000,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "trixie-squeaky-plush-duck-toy",
+   "name": "Squeaky Plush Duck Toy",
+   "brand": "Trixie",
+   "pet": "dog",
+   "category": "dog-toys",
+   "kind": "toy",
+   "tint": "#fbe7a1",
+   "badge": null,
+   "tags": [
+    "shih-tzu"
+   ],
+   "lifeStage": "All",
+   "breedSize": "Small",
+   "diet": null,
+   "flavour": null,
+   "description": "A soft, cuddly plush duck with a squeaker inside for gentle play and snuggles.",
+   "highlights": [
+    "Soft plush",
+    "Built-in squeaker",
+    "Great for small breeds",
+    "Machine washable"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Trixie"
+    ],
+    [
+     "For",
+     "Dogs"
+    ],
+    [
+     "Life stage",
+     "All"
+    ],
+    [
+     "Breed size",
+     "Small"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "One size",
+     "price": 34900,
+     "mrp": 45000,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "let-s-play-rope-tug-toy-with-ball",
+   "name": "Rope Tug Toy with Ball",
+   "brand": "Let's Play",
+   "pet": "dog",
+   "category": "dog-toys",
+   "kind": "toy",
+   "tint": "#cfe5f6",
+   "badge": "Deal",
+   "tags": [
+    "indie-dog",
+    "labrador"
+   ],
+   "lifeStage": "All",
+   "breedSize": "Medium",
+   "diet": null,
+   "flavour": null,
+   "description": "A cotton rope tug with a rubber ball — ideal for tug-of-war and fetch.",
+   "highlights": [
+    "Cotton rope helps floss teeth",
+    "Tug + fetch in one",
+    "Strong knots",
+    "Bright colours"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Let's Play"
+    ],
+    [
+     "For",
+     "Dogs"
+    ],
+    [
+     "Life stage",
+     "All"
+    ],
+    [
+     "Breed size",
+     "Medium"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "Medium",
+     "price": 29900,
+     "mrp": 39900,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "wahl-oatmeal-gentle-dog-shampoo",
+   "name": "Oatmeal Gentle Dog Shampoo",
+   "brand": "Wahl",
+   "pet": "dog",
+   "category": "dog-grooming",
+   "kind": "bottle",
+   "tint": "#e7e0f5",
+   "badge": null,
+   "tags": [
+    "shih-tzu",
+    "golden-retriever"
+   ],
+   "lifeStage": "All",
+   "breedSize": "All",
+   "diet": null,
+   "flavour": null,
+   "description": "A soothing oatmeal shampoo for sensitive skin that leaves the coat soft and lightly scented.",
+   "highlights": [
+    "Soap free & pH balanced",
+    "Soothes dry skin",
+    "Light coconut-lime scent",
+    "Rinses easily"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Wahl"
+    ],
+    [
+     "For",
+     "Dogs"
+    ],
+    [
+     "Life stage",
+     "All"
+    ],
+    [
+     "Breed size",
+     "All"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "250ml",
+     "price": 39900,
+     "mrp": 45000,
+     "grams": null
+    },
+    {
+     "label": "500ml",
+     "price": 69900,
+     "mrp": 79900,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "skatrs-antibacterial-pet-cleaning-wipes",
+   "name": "Antibacterial Pet Cleaning Wipes",
+   "brand": "Skatrs",
+   "pet": "dog",
+   "category": "dog-grooming",
+   "kind": "pouch",
+   "tint": "#d5eef0",
+   "badge": "Bestseller",
+   "tags": [
+    "shih-tzu",
+    "persian"
+   ],
+   "lifeStage": "All",
+   "breedSize": "All",
+   "diet": null,
+   "flavour": null,
+   "description": "Thick, lightly scented wipes for quick clean-ups of paws, face and coat between baths.",
+   "highlights": [
+    "Alcohol free",
+    "Safe for paws & face",
+    "Fresh fragrance",
+    "Extra-large wipes"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Skatrs"
+    ],
+    [
+     "For",
+     "Dogs"
+    ],
+    [
+     "Life stage",
+     "All"
+    ],
+    [
+     "Breed size",
+     "All"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "Pack of 72",
+     "price": 29900,
+     "mrp": 35000,
+     "grams": null
+    },
+    {
+     "label": "Pack of 2",
+     "price": 54900,
+     "mrp": 70000,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "hartz-self-cleaning-slicker-brush",
+   "name": "Self-Cleaning Slicker Brush",
+   "brand": "Hartz",
+   "pet": "dog",
+   "category": "dog-grooming",
+   "kind": "collar",
+   "tint": "#f5dccd",
+   "badge": null,
+   "tags": [
+    "golden-retriever",
+    "german-shepherd",
+    "persian"
+   ],
+   "lifeStage": "All",
+   "breedSize": "All",
+   "diet": null,
+   "flavour": null,
+   "description": "Fine bent pins remove loose fur and tangles; one click retracts the pins for quick cleaning.",
+   "highlights": [
+    "One-click fur release",
+    "Gentle angled pins",
+    "Comfort grip handle",
+    "For dogs & cats"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Hartz"
+    ],
+    [
+     "For",
+     "Dogs"
+    ],
+    [
+     "Life stage",
+     "All"
+    ],
+    [
+     "Breed size",
+     "All"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "One size",
+     "price": 54900,
+     "mrp": 69900,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "let-s-wag-padded-nylon-harness",
+   "name": "Padded Nylon Harness",
+   "brand": "Let's Wag",
+   "pet": "dog",
+   "category": "dog-walk",
+   "kind": "collar",
+   "tint": "#c9e7dc",
+   "badge": null,
+   "tags": [
+    "beagle",
+    "labrador",
+    "shih-tzu"
+   ],
+   "lifeStage": "All",
+   "breedSize": "All",
+   "diet": null,
+   "flavour": null,
+   "description": "A breathable padded harness that spreads pressure evenly for comfortable, pull-free walks.",
+   "highlights": [
+    "Soft padded chest",
+    "Reflective stitching",
+    "Quick-release buckles",
+    "Adjustable fit"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Let's Wag"
+    ],
+    [
+     "For",
+     "Dogs"
+    ],
+    [
+     "Life stage",
+     "All"
+    ],
+    [
+     "Breed size",
+     "All"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "S",
+     "price": 49900,
+     "mrp": 69900,
+     "grams": null
+    },
+    {
+     "label": "M",
+     "price": 59900,
+     "mrp": 79900,
+     "grams": null
+    },
+    {
+     "label": "L",
+     "price": 69900,
+     "mrp": 89900,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "let-s-wag-martingale-fabric-collar",
+   "name": "Martingale Fabric Collar",
+   "brand": "Let's Wag",
+   "pet": "dog",
+   "category": "dog-walk",
+   "kind": "collar",
+   "tint": "#e2d4f0",
+   "badge": null,
+   "tags": [
+    "indie-dog",
+    "german-shepherd"
+   ],
+   "lifeStage": "All",
+   "breedSize": "Medium",
+   "diet": null,
+   "flavour": null,
+   "description": "A soft cotton martingale collar that gently tightens to prevent slipping — great for training.",
+   "highlights": [
+    "Soft cotton webbing",
+    "No-slip design",
+    "Gentle on the neck",
+    "Machine washable"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Let's Wag"
+    ],
+    [
+     "For",
+     "Dogs"
+    ],
+    [
+     "Life stage",
+     "All"
+    ],
+    [
+     "Breed size",
+     "Medium"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "M",
+     "price": 39900,
+     "mrp": 49900,
+     "grams": null
+    },
+    {
+     "label": "L",
+     "price": 44900,
+     "mrp": 54900,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "mutt-of-course-orthopaedic-memory-foam-dog-bed",
+   "name": "Orthopaedic Memory Foam Dog Bed",
+   "brand": "Mutt of Course",
+   "pet": "dog",
+   "category": "dog-beds",
+   "kind": "bed",
+   "tint": "#e8dccc",
+   "badge": "Tailskart Pick",
+   "tags": [
+    "labrador",
+    "golden-retriever",
+    "german-shepherd"
+   ],
+   "lifeStage": "Senior",
+   "breedSize": "Large",
+   "diet": null,
+   "flavour": null,
+   "description": "Supportive memory foam with a removable, washable cover — kind to older joints.",
+   "highlights": [
+    "Memory foam base",
+    "Removable washable cover",
+    "Anti-slip bottom",
+    "Raised bolster edge"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Mutt of Course"
+    ],
+    [
+     "For",
+     "Dogs"
+    ],
+    [
+     "Life stage",
+     "Senior"
+    ],
+    [
+     "Breed size",
+     "Large"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "Medium",
+     "price": 249900,
+     "mrp": 349900,
+     "grams": null
+    },
+    {
+     "label": "Large",
+     "price": 329900,
+     "mrp": 449900,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "basil-stainless-steel-anti-skid-bowl",
+   "name": "Stainless Steel Anti-Skid Bowl",
+   "brand": "Basil",
+   "pet": "dog",
+   "category": "dog-bowls",
+   "kind": "bowl",
+   "tint": "#dde6ea",
+   "badge": "Deal",
+   "tags": [],
+   "lifeStage": "All",
+   "breedSize": "All",
+   "diet": null,
+   "flavour": null,
+   "description": "A rust-proof steel bowl with a rubber base that stops sliding and spills.",
+   "highlights": [
+    "Food-grade steel",
+    "Non-slip rubber base",
+    "Dishwasher safe",
+    "Rust resistant"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Basil"
+    ],
+    [
+     "For",
+     "Dogs"
+    ],
+    [
+     "Life stage",
+     "All"
+    ],
+    [
+     "Breed size",
+     "All"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "450ml",
+     "price": 19900,
+     "mrp": 26000,
+     "grams": null
+    },
+    {
+     "label": "900ml",
+     "price": 27900,
+     "mrp": 35000,
+     "grams": null
+    },
+    {
+     "label": "1.8L",
+     "price": 39900,
+     "mrp": 49900,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "pawgy-cable-knit-winter-sweater",
+   "name": "Cable Knit Winter Sweater",
+   "brand": "Pawgy",
+   "pet": "dog",
+   "category": "dog-clothing",
+   "kind": "tee",
+   "tint": "#f1cfc2",
+   "badge": "New",
+   "tags": [
+    "shih-tzu",
+    "beagle"
+   ],
+   "lifeStage": "All",
+   "breedSize": "Small",
+   "diet": null,
+   "flavour": null,
+   "description": "A cosy acrylic-knit sweater to keep small dogs warm on chilly morning walks.",
+   "highlights": [
+    "Soft acrylic knit",
+    "Ribbed neck & cuffs",
+    "Easy pull-on",
+    "Hand washable"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Pawgy"
+    ],
+    [
+     "For",
+     "Dogs"
+    ],
+    [
+     "Life stage",
+     "All"
+    ],
+    [
+     "Breed size",
+     "Small"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "XS",
+     "price": 59900,
+     "mrp": 89900,
+     "grams": null
+    },
+    {
+     "label": "S",
+     "price": 64900,
+     "mrp": 94900,
+     "grams": null
+    },
+    {
+     "label": "M",
+     "price": 69900,
+     "mrp": 99900,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "drools-ocean-fish-adult-cat-dry-food",
+   "name": "Ocean Fish Adult Cat Dry Food",
+   "brand": "Drools",
+   "pet": "cat",
+   "category": "cat-dry-food",
+   "kind": "bag",
+   "tint": "#cfe3f6",
+   "badge": "Bestseller",
+   "tags": [
+    "indie-cat",
+    "siamese"
+   ],
+   "lifeStage": "Adult",
+   "breedSize": null,
+   "diet": "Non-Veg",
+   "flavour": "Fish",
+   "description": "A complete adult cat meal with ocean fish, taurine for heart and eye health, and fibre for hairball care.",
+   "highlights": [
+    "Taurine for heart & eyes",
+    "Hairball control",
+    "Omega fatty acids",
+    "Crunchy kibble"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Drools"
+    ],
+    [
+     "For",
+     "Cats"
+    ],
+    [
+     "Life stage",
+     "Adult"
+    ],
+    [
+     "Diet",
+     "Non-Veg"
+    ],
+    [
+     "Flavour",
+     "Fish"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "1.2kg",
+     "price": 39900,
+     "mrp": 45000,
+     "grams": 1200
+    },
+    {
+     "label": "3kg",
+     "price": 84900,
+     "mrp": 95000,
+     "grams": 3000
+    },
+    {
+     "label": "7kg",
+     "price": 171600,
+     "mrp": 195000,
+     "grams": 7000
+    }
+   ]
+  },
+  {
+   "slug": "purepet-ocean-fish-adult-cat-dry-food",
+   "name": "Ocean Fish Adult Cat Dry Food",
+   "brand": "Purepet",
+   "pet": "cat",
+   "category": "cat-dry-food",
+   "kind": "bag",
+   "tint": "#d4ecf2",
+   "badge": "Deal",
+   "tags": [
+    "indie-cat"
+   ],
+   "lifeStage": "Adult",
+   "breedSize": null,
+   "diet": "Non-Veg",
+   "flavour": "Fish",
+   "description": "An affordable daily meal with fish protein and essential nutrients for healthy adult cats.",
+   "highlights": [
+    "Great value",
+    "Taurine added",
+    "Supports immunity",
+    "Tasty fish flavour"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Purepet"
+    ],
+    [
+     "For",
+     "Cats"
+    ],
+    [
+     "Life stage",
+     "Adult"
+    ],
+    [
+     "Diet",
+     "Non-Veg"
+    ],
+    [
+     "Flavour",
+     "Fish"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "1.2kg",
+     "price": 34900,
+     "mrp": 39900,
+     "grams": 1200
+    },
+    {
+     "label": "7kg",
+     "price": 159900,
+     "mrp": 180000,
+     "grams": 7000
+    },
+    {
+     "label": "20kg",
+     "price": 296900,
+     "mrp": 329900,
+     "grams": 20000
+    }
+   ]
+  },
+  {
+   "slug": "royal-canin-persian-adult-cat-dry-food",
+   "name": "Persian Adult Cat Dry Food",
+   "brand": "Royal Canin",
+   "pet": "cat",
+   "category": "cat-dry-food",
+   "kind": "bag",
+   "tint": "#f2d7e6",
+   "badge": "Tailskart Pick",
+   "tags": [
+    "persian"
+   ],
+   "lifeStage": "Adult",
+   "breedSize": null,
+   "diet": "Non-Veg",
+   "flavour": null,
+   "description": "Almond-shaped kibble designed for the flat face of Persian cats, with nutrients for a long, silky coat.",
+   "highlights": [
+    "Kibble for flat faces",
+    "Skin & coat support",
+    "Hairball care",
+    "For cats over 12 months"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Royal Canin"
+    ],
+    [
+     "For",
+     "Cats"
+    ],
+    [
+     "Life stage",
+     "Adult"
+    ],
+    [
+     "Diet",
+     "Non-Veg"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "400g",
+     "price": 64900,
+     "mrp": 71000,
+     "grams": 400
+    },
+    {
+     "label": "2kg",
+     "price": 259900,
+     "mrp": 285000,
+     "grams": 2000
+    }
+   ]
+  },
+  {
+   "slug": "whiskas-kitten-chicken-dry-food",
+   "name": "Kitten Chicken Dry Food",
+   "brand": "Whiskas",
+   "pet": "cat",
+   "category": "cat-dry-food",
+   "kind": "bag",
+   "tint": "#e9dcf5",
+   "badge": null,
+   "tags": [
+    "indie-cat",
+    "persian",
+    "siamese"
+   ],
+   "lifeStage": "Kitten",
+   "breedSize": null,
+   "diet": "Non-Veg",
+   "flavour": "Chicken",
+   "description": "Milk-filled pockets and chicken for kittens from 2 to 12 months, with DHA for growing brains.",
+   "highlights": [
+    "Milk-filled pockets",
+    "DHA for development",
+    "Small kibble",
+    "Calcium for bones"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Whiskas"
+    ],
+    [
+     "For",
+     "Cats"
+    ],
+    [
+     "Life stage",
+     "Kitten"
+    ],
+    [
+     "Diet",
+     "Non-Veg"
+    ],
+    [
+     "Flavour",
+     "Chicken"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "450g",
+     "price": 23900,
+     "mrp": 26500,
+     "grams": 450
+    },
+    {
+     "label": "1.1kg",
+     "price": 48900,
+     "mrp": 54000,
+     "grams": 1100
+    }
+   ]
+  },
+  {
+   "slug": "whiskas-tuna-in-jelly-adult-cat-wet-food",
+   "name": "Tuna in Jelly Adult Cat Wet Food",
+   "brand": "Whiskas",
+   "pet": "cat",
+   "category": "cat-wet-food",
+   "kind": "pouch",
+   "tint": "#cde6f5",
+   "badge": "Bestseller",
+   "tags": [
+    "indie-cat",
+    "persian",
+    "siamese"
+   ],
+   "lifeStage": "Adult",
+   "breedSize": null,
+   "diet": "Non-Veg",
+   "flavour": "Tuna",
+   "description": "Juicy tuna pieces in jelly — a hydrating, tasty meal for adult cats.",
+   "highlights": [
+    "Adds hydration",
+    "Real tuna pieces",
+    "Complete & balanced",
+    "Single-serve pouches"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Whiskas"
+    ],
+    [
+     "For",
+     "Cats"
+    ],
+    [
+     "Life stage",
+     "Adult"
+    ],
+    [
+     "Diet",
+     "Non-Veg"
+    ],
+    [
+     "Flavour",
+     "Tuna"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "12 x 85g",
+     "price": 45900,
+     "mrp": 54000,
+     "grams": 1020
+    },
+    {
+     "label": "24 x 85g",
+     "price": 87900,
+     "mrp": 108000,
+     "grams": 2040
+    }
+   ]
+  },
+  {
+   "slug": "sheba-chicken-and-salmon-p-t-cat-wet-food",
+   "name": "Chicken & Salmon Pâté Cat Wet Food",
+   "brand": "Sheba",
+   "pet": "cat",
+   "category": "cat-wet-food",
+   "kind": "pouch",
+   "tint": "#f6d9cf",
+   "badge": null,
+   "tags": [
+    "persian"
+   ],
+   "lifeStage": "Adult",
+   "breedSize": null,
+   "diet": "Non-Veg",
+   "flavour": "Salmon",
+   "description": "A smooth, silky pâté with chicken and salmon for cats who prefer finer textures.",
+   "highlights": [
+    "Smooth pâté texture",
+    "No artificial colours",
+    "Grain free",
+    "Perfect portion size"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Sheba"
+    ],
+    [
+     "For",
+     "Cats"
+    ],
+    [
+     "Life stage",
+     "Adult"
+    ],
+    [
+     "Diet",
+     "Non-Veg"
+    ],
+    [
+     "Flavour",
+     "Salmon"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "12 x 70g",
+     "price": 53900,
+     "mrp": 60000,
+     "grams": 840
+    }
+   ]
+  },
+  {
+   "slug": "me-o-tuna-and-whitebait-kitten-wet-food",
+   "name": "Tuna & Whitebait Kitten Wet Food",
+   "brand": "Me-O",
+   "pet": "cat",
+   "category": "cat-wet-food",
+   "kind": "pouch",
+   "tint": "#d6ecf3",
+   "badge": "New",
+   "tags": [
+    "indie-cat"
+   ],
+   "lifeStage": "Kitten",
+   "breedSize": null,
+   "diet": "Non-Veg",
+   "flavour": "Tuna",
+   "description": "Soft mousse-style wet food for kittens, with tuna and whitebait for growing bodies.",
+   "highlights": [
+    "Soft for tiny teeth",
+    "DHA added",
+    "Taurine for eyes",
+    "Easy-open pouch"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Me-O"
+    ],
+    [
+     "For",
+     "Cats"
+    ],
+    [
+     "Life stage",
+     "Kitten"
+    ],
+    [
+     "Diet",
+     "Non-Veg"
+    ],
+    [
+     "Flavour",
+     "Tuna"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "12 x 80g",
+     "price": 39900,
+     "mrp": 48000,
+     "grams": 960
+    }
+   ]
+  },
+  {
+   "slug": "me-o-creamy-lickable-tuna-cat-treats",
+   "name": "Creamy Lickable Tuna Cat Treats",
+   "brand": "Me-O",
+   "pet": "cat",
+   "category": "cat-treats",
+   "kind": "treat",
+   "tint": "#e4dcf6",
+   "badge": "Bestseller",
+   "tags": [
+    "indie-cat",
+    "persian",
+    "siamese"
+   ],
+   "lifeStage": "All",
+   "breedSize": null,
+   "diet": "Non-Veg",
+   "flavour": "Tuna",
+   "description": "A creamy, lickable treat you can hand-feed — great for bonding or hiding a pill.",
+   "highlights": [
+    "Hand-feed from the tube",
+    "Low calorie",
+    "Adds hydration",
+    "Cats can't resist it"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Me-O"
+    ],
+    [
+     "For",
+     "Cats"
+    ],
+    [
+     "Life stage",
+     "All"
+    ],
+    [
+     "Diet",
+     "Non-Veg"
+    ],
+    [
+     "Flavour",
+     "Tuna"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "4 x 15g",
+     "price": 12900,
+     "mrp": 15000,
+     "grams": 60
+    },
+    {
+     "label": "20 x 15g",
+     "price": 54900,
+     "mrp": 65000,
+     "grams": 300
+    }
+   ]
+  },
+  {
+   "slug": "temptations-crunchy-salmon-cat-bites",
+   "name": "Crunchy Salmon Cat Bites",
+   "brand": "Temptations",
+   "pet": "cat",
+   "category": "cat-treats",
+   "kind": "jar",
+   "tint": "#f9d7c9",
+   "badge": null,
+   "tags": [
+    "siamese"
+   ],
+   "lifeStage": "All",
+   "breedSize": null,
+   "diet": "Non-Veg",
+   "flavour": "Salmon",
+   "description": "Crunchy outside, soft inside — a tasty reward with salmon flavour.",
+   "highlights": [
+    "Crunchy + soft centre",
+    "Under 2 calories per treat",
+    "Resealable tub",
+    "Shake to call your cat"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Temptations"
+    ],
+    [
+     "For",
+     "Cats"
+    ],
+    [
+     "Life stage",
+     "All"
+    ],
+    [
+     "Diet",
+     "Non-Veg"
+    ],
+    [
+     "Flavour",
+     "Salmon"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "85g",
+     "price": 19900,
+     "mrp": 23000,
+     "grams": 85
+    },
+    {
+     "label": "180g",
+     "price": 37900,
+     "mrp": 44000,
+     "grams": 180
+    }
+   ]
+  },
+  {
+   "slug": "kitty-fresh-clumping-bentonite-cat-litter-lavender",
+   "name": "Clumping Bentonite Cat Litter (Lavender)",
+   "brand": "Kitty Fresh",
+   "pet": "cat",
+   "category": "cat-litter",
+   "kind": "litter",
+   "tint": "#e3dcf3",
+   "badge": "Bestseller",
+   "tags": [
+    "indie-cat",
+    "persian",
+    "siamese"
+   ],
+   "lifeStage": "All",
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Fast-clumping litter that locks in odour, with a light lavender scent and low dust.",
+   "highlights": [
+    "Clumps in seconds",
+    "99% dust free",
+    "Strong odour control",
+    "Easy to scoop"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Kitty Fresh"
+    ],
+    [
+     "For",
+     "Cats"
+    ],
+    [
+     "Life stage",
+     "All"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "5kg",
+     "price": 34900,
+     "mrp": 45000,
+     "grams": 5000
+    },
+    {
+     "label": "10kg",
+     "price": 64900,
+     "mrp": 85000,
+     "grams": 10000
+    }
+   ]
+  },
+  {
+   "slug": "catsan-tofu-flushable-cat-litter-original",
+   "name": "Tofu Flushable Cat Litter (Original)",
+   "brand": "Catsan",
+   "pet": "cat",
+   "category": "cat-litter",
+   "kind": "litter",
+   "tint": "#e8efd6",
+   "badge": "New",
+   "tags": [
+    "persian"
+   ],
+   "lifeStage": "All",
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Plant-based tofu litter that's light, low-dust and flushable in small amounts.",
+   "highlights": [
+    "Plant based",
+    "Light to carry",
+    "Low dust",
+    "Biodegradable"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Catsan"
+    ],
+    [
+     "For",
+     "Cats"
+    ],
+    [
+     "Life stage",
+     "All"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "6L",
+     "price": 54900,
+     "mrp": 65000,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "petvogue-covered-cat-litter-box-with-scoop",
+   "name": "Covered Cat Litter Box with Scoop",
+   "brand": "Petvogue",
+   "pet": "cat",
+   "category": "cat-litter",
+   "kind": "bed",
+   "tint": "#d9e9e3",
+   "badge": null,
+   "tags": [],
+   "lifeStage": "All",
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "A hooded litter box with a swing door and carbon filter for privacy and less smell.",
+   "highlights": [
+    "Swing door",
+    "Carbon odour filter",
+    "Includes scoop",
+    "Easy-lift hood"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Petvogue"
+    ],
+    [
+     "For",
+     "Cats"
+    ],
+    [
+     "Life stage",
+     "All"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "Large",
+     "price": 149900,
+     "mrp": 199900,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "trixie-feather-teaser-wand",
+   "name": "Feather Teaser Wand",
+   "brand": "Trixie",
+   "pet": "cat",
+   "category": "cat-toys",
+   "kind": "toy",
+   "tint": "#fbe1c5",
+   "badge": "Deal",
+   "tags": [
+    "indie-cat",
+    "siamese"
+   ],
+   "lifeStage": "All",
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "A flexible wand with feathers and a bell for interactive chase-and-pounce play.",
+   "highlights": [
+    "Interactive play",
+    "Feathers + bell",
+    "Flexible rod",
+    "Encourages exercise"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Trixie"
+    ],
+    [
+     "For",
+     "Cats"
+    ],
+    [
+     "Life stage",
+     "All"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "One size",
+     "price": 19900,
+     "mrp": 29900,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "petvogue-sisal-scratch-post-with-ball",
+   "name": "Sisal Scratch Post with Ball",
+   "brand": "Petvogue",
+   "pet": "cat",
+   "category": "cat-toys",
+   "kind": "toy",
+   "tint": "#ecdcc5",
+   "badge": null,
+   "tags": [
+    "indie-cat",
+    "persian"
+   ],
+   "lifeStage": "All",
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "A sturdy sisal post that saves your sofa, topped with a hanging play ball.",
+   "highlights": [
+    "Natural sisal rope",
+    "Heavy, stable base",
+    "Hanging ball toy",
+    "Easy assembly"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Petvogue"
+    ],
+    [
+     "For",
+     "Cats"
+    ],
+    [
+     "Life stage",
+     "All"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "50cm",
+     "price": 89900,
+     "mrp": 129900,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "kong-catnip-fish-plush-toy",
+   "name": "Catnip Fish Plush Toy",
+   "brand": "Kong",
+   "pet": "cat",
+   "category": "cat-toys",
+   "kind": "toy",
+   "tint": "#cfe8f0",
+   "badge": null,
+   "tags": [
+    "siamese"
+   ],
+   "lifeStage": "All",
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "A crinkly plush fish filled with premium catnip to spark playtime.",
+   "highlights": [
+    "Premium catnip inside",
+    "Crinkle sound",
+    "Kick toy size",
+    "Soft plush"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Kong"
+    ],
+    [
+     "For",
+     "Cats"
+    ],
+    [
+     "Life stage",
+     "All"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "One size",
+     "price": 34900,
+     "mrp": 45000,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "wahl-gentle-cat-shampoo-aloe",
+   "name": "Gentle Cat Shampoo (Aloe)",
+   "brand": "Wahl",
+   "pet": "cat",
+   "category": "cat-grooming",
+   "kind": "bottle",
+   "tint": "#d7efdd",
+   "badge": null,
+   "tags": [
+    "persian"
+   ],
+   "lifeStage": "All",
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "A mild aloe shampoo made for cats' sensitive skin, leaving fur soft and tangle-free.",
+   "highlights": [
+    "Tear free",
+    "With aloe vera",
+    "Detangles fur",
+    "Light scent"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Wahl"
+    ],
+    [
+     "For",
+     "Cats"
+    ],
+    [
+     "Life stage",
+     "All"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "250ml",
+     "price": 44900,
+     "mrp": 52000,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "mutt-of-course-plush-donut-cat-bed",
+   "name": "Plush Donut Cat Bed",
+   "brand": "Mutt of Course",
+   "pet": "cat",
+   "category": "cat-accessories",
+   "kind": "bed",
+   "tint": "#f1e2d6",
+   "badge": "Tailskart Pick",
+   "tags": [
+    "persian",
+    "indie-cat",
+    "siamese"
+   ],
+   "lifeStage": "All",
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "A fluffy donut bed with raised edges that cats love to curl up in.",
+   "highlights": [
+    "Ultra-soft faux fur",
+    "Raised calming edge",
+    "Non-slip base",
+    "Machine washable"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Mutt of Course"
+    ],
+    [
+     "For",
+     "Cats"
+    ],
+    [
+     "Life stage",
+     "All"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "50cm",
+     "price": 99900,
+     "mrp": 149900,
+     "grams": null
+    },
+    {
+     "label": "60cm",
+     "price": 119900,
+     "mrp": 169900,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "let-s-wag-breakaway-cat-collar-with-bell",
+   "name": "Breakaway Cat Collar with Bell",
+   "brand": "Let's Wag",
+   "pet": "cat",
+   "category": "cat-accessories",
+   "kind": "collar",
+   "tint": "#f7d0d6",
+   "badge": null,
+   "tags": [],
+   "lifeStage": "All",
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "A soft collar with a safety breakaway buckle and a tiny bell.",
+   "highlights": [
+    "Safety breakaway buckle",
+    "Adjustable",
+    "Lightweight",
+    "Cute bell"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Let's Wag"
+    ],
+    [
+     "For",
+     "Cats"
+    ],
+    [
+     "Life stage",
+     "All"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "One size",
+     "price": 24900,
+     "mrp": 34900,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "tetra-tropical-fish-flakes",
+   "name": "Tropical Fish Flakes",
+   "brand": "Tetra",
+   "pet": "small",
+   "category": "fish-food",
+   "kind": "jar",
+   "tint": "#cdeaf2",
+   "badge": "Bestseller",
+   "tags": [],
+   "lifeStage": "All",
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Nutritious flakes for tropical fish that support colour, health and clean water.",
+   "highlights": [
+    "Clean, clear water formula",
+    "Enhances colour",
+    "Easy to digest",
+    "For all tropical fish"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Tetra"
+    ],
+    [
+     "For",
+     "Small Pets"
+    ],
+    [
+     "Life stage",
+     "All"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "20g",
+     "price": 14900,
+     "mrp": 17500,
+     "grams": 20
+    },
+    {
+     "label": "100g",
+     "price": 49900,
+     "mrp": 57500,
+     "grams": 100
+    }
+   ]
+  },
+  {
+   "slug": "taiyo-goldfish-floating-pellets",
+   "name": "Goldfish Floating Pellets",
+   "brand": "Taiyo",
+   "pet": "small",
+   "category": "fish-food",
+   "kind": "jar",
+   "tint": "#fde3c0",
+   "badge": null,
+   "tags": [],
+   "lifeStage": "All",
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Floating pellets made for goldfish and koi, with spirulina for colour.",
+   "highlights": [
+    "Floating pellets",
+    "With spirulina",
+    "Value pack",
+    "Daily feeding"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Taiyo"
+    ],
+    [
+     "For",
+     "Small Pets"
+    ],
+    [
+     "Life stage",
+     "All"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "100g",
+     "price": 9900,
+     "mrp": 12000,
+     "grams": 100
+    }
+   ]
+  },
+  {
+   "slug": "vitapol-budgie-seed-mix",
+   "name": "Budgie Seed Mix",
+   "brand": "Vitapol",
+   "pet": "small",
+   "category": "bird-food",
+   "kind": "bag",
+   "tint": "#f2eebe",
+   "badge": null,
+   "tags": [],
+   "lifeStage": "All",
+   "breedSize": null,
+   "diet": "Veg",
+   "flavour": null,
+   "description": "A balanced seed blend for budgies with millet, canary seed and oats.",
+   "highlights": [
+    "Balanced seed blend",
+    "Cleaned & dust free",
+    "Vitamin enriched",
+    "Resealable bag"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Vitapol"
+    ],
+    [
+     "For",
+     "Small Pets"
+    ],
+    [
+     "Life stage",
+     "All"
+    ],
+    [
+     "Diet",
+     "Veg"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "500g",
+     "price": 19900,
+     "mrp": 24000,
+     "grams": 500
+    },
+    {
+     "label": "1kg",
+     "price": 35900,
+     "mrp": 43000,
+     "grams": 1000
+    }
+   ]
+  },
+  {
+   "slug": "versele-laga-rabbit-pellets-with-timothy-hay",
+   "name": "Rabbit Pellets with Timothy Hay",
+   "brand": "Versele-Laga",
+   "pet": "small",
+   "category": "rabbit-food",
+   "kind": "bag",
+   "tint": "#e0eccb",
+   "badge": "New",
+   "tags": [],
+   "lifeStage": "Adult",
+   "breedSize": null,
+   "diet": "Veg",
+   "flavour": null,
+   "description": "High-fibre pellets with timothy hay for healthy digestion and teeth.",
+   "highlights": [
+    "High fibre",
+    "Timothy hay base",
+    "No added sugar",
+    "Supports dental health"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Versele-Laga"
+    ],
+    [
+     "For",
+     "Small Pets"
+    ],
+    [
+     "Life stage",
+     "Adult"
+    ],
+    [
+     "Diet",
+     "Veg"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "1kg",
+     "price": 54900,
+     "mrp": 64000,
+     "grams": 1000
+    }
+   ]
+  },
+  {
+   "slug": "pet-clean-enzyme-stain-and-odour-remover",
+   "name": "Enzyme Stain & Odour Remover",
+   "brand": "Pet Clean",
+   "pet": "parent",
+   "category": "home-cleaning",
+   "kind": "bottle",
+   "tint": "#d2ecef",
+   "badge": "Bestseller",
+   "tags": [],
+   "lifeStage": "All",
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "An enzyme spray that breaks down pet stains and odours on carpets, sofas and floors.",
+   "highlights": [
+    "Enzyme action",
+    "Safe around pets",
+    "Removes urine odour",
+    "Works on fabric & floors"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Pet Clean"
+    ],
+    [
+     "For",
+     "Pet Parents"
+    ],
+    [
+     "Life stage",
+     "All"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "500ml",
+     "price": 39900,
+     "mrp": 49900,
+     "grams": null
+    },
+    {
+     "label": "1L",
+     "price": 64900,
+     "mrp": 79900,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "chom-chom-reusable-pet-hair-lint-roller",
+   "name": "Reusable Pet Hair Lint Roller",
+   "brand": "Chom Chom",
+   "pet": "parent",
+   "category": "home-cleaning",
+   "kind": "collar",
+   "tint": "#f6d6cf",
+   "badge": null,
+   "tags": [],
+   "lifeStage": "All",
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Roll back and forth to lift pet hair off sofas and beds — no sticky sheets needed.",
+   "highlights": [
+    "No refills needed",
+    "Self-cleaning chamber",
+    "Works on furniture",
+    "Eco friendly"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Chom Chom"
+    ],
+    [
+     "For",
+     "Pet Parents"
+    ],
+    [
+     "Life stage",
+     "All"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "One size",
+     "price": 79900,
+     "mrp": 109900,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "tailskart-proud-dog-parent-tee",
+   "name": "Proud Dog Parent Tee",
+   "brand": "Tailskart",
+   "pet": "parent",
+   "category": "merch",
+   "kind": "tee",
+   "tint": "#c8e6d8",
+   "badge": "New",
+   "tags": [],
+   "lifeStage": "All",
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "A soft cotton tee for proud pet parents, printed with a tiny Tailskart paw.",
+   "highlights": [
+    "100% cotton",
+    "Unisex fit",
+    "Soft print",
+    "Pre-shrunk"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Tailskart"
+    ],
+    [
+     "For",
+     "Pet Parents"
+    ],
+    [
+     "Life stage",
+     "All"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "S",
+     "price": 59900,
+     "mrp": 79900,
+     "grams": null
+    },
+    {
+     "label": "M",
+     "price": 59900,
+     "mrp": 79900,
+     "grams": null
+    },
+    {
+     "label": "L",
+     "price": 59900,
+     "mrp": 79900,
+     "grams": null
+    },
+    {
+     "label": "XL",
+     "price": 64900,
+     "mrp": 84900,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "tailskart-tailskart-gift-card",
+   "name": "Tailskart Gift Card",
+   "brand": "Tailskart",
+   "pet": "parent",
+   "category": "merch",
+   "kind": "tee",
+   "tint": "#ffe0cc",
+   "badge": null,
+   "tags": [],
+   "lifeStage": "All",
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Let them pick what their pet loves. Delivered instantly by email or WhatsApp.",
+   "highlights": [
+    "Instant delivery",
+    "Valid for 12 months",
+    "Use across the store",
+    "Personal message"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Tailskart"
+    ],
+    [
+     "For",
+     "Pet Parents"
+    ],
+    [
+     "Life stage",
+     "All"
+    ],
+    [
+     "Country of origin",
+     "India"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "₹500",
+     "price": 50000,
+     "mrp": 50000,
+     "grams": null
+    },
+    {
+     "label": "₹1000",
+     "price": 100000,
+     "mrp": 100000,
+     "grams": null
+    },
+    {
+     "label": "₹2000",
+     "price": 200000,
+     "mrp": 200000,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "msd-animal-health-bravecto-chewable-tick-and-flea-tablet-fluralaner",
+   "name": "Bravecto Chewable Tick & Flea Tablet (Fluralaner)",
+   "brand": "MSD Animal Health",
+   "pet": "dog",
+   "category": "dog-tick-flea",
+   "kind": "jar",
+   "tint": "#e6f1f8",
+   "badge": "Bestseller",
+   "tags": [
+    "rx"
+   ],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "One chewable tablet protects against ticks and fleas for up to 12 weeks. Dose by body weight as advised by your vet.",
+   "highlights": [
+    "Up to 12 weeks of protection",
+    "Chewable, flavoured tablet",
+    "Choose the pack for your dog's weight"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "MSD Animal Health"
+    ],
+    [
+     "For",
+     "Dogs"
+    ],
+    [
+     "Prescription",
+     "Required — order through pharko"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "2–4.5 kg",
+     "price": 235000,
+     "mrp": 242000,
+     "grams": null
+    },
+    {
+     "label": "4.5–10 kg",
+     "price": 256000,
+     "mrp": 264000,
+     "grams": null
+    },
+    {
+     "label": "10–20 kg",
+     "price": 279000,
+     "mrp": 287000,
+     "grams": null
+    },
+    {
+     "label": "20–40 kg",
+     "price": 305000,
+     "mrp": 314000,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "zoetis-simparica-trio-chewable-tablet-sarolaner",
+   "name": "Simparica Trio Chewable Tablet (Sarolaner)",
+   "brand": "Zoetis",
+   "pet": "dog",
+   "category": "dog-tick-flea",
+   "kind": "jar",
+   "tint": "#e6f1f8",
+   "badge": null,
+   "tags": [
+    "rx"
+   ],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Monthly chewable that covers ticks, fleas and common worms in one dose.",
+   "highlights": [
+    "Monthly protection",
+    "Ticks, fleas and worms",
+    "Dose by body weight"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Zoetis"
+    ],
+    [
+     "For",
+     "Dogs"
+    ],
+    [
+     "Prescription",
+     "Required — order through pharko"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "5–10 kg",
+     "price": 119000,
+     "mrp": 123000,
+     "grams": null
+    },
+    {
+     "label": "10–20 kg",
+     "price": 135000,
+     "mrp": 139000,
+     "grams": null
+    },
+    {
+     "label": "20–40 kg",
+     "price": 156000,
+     "mrp": 161000,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "zoetis-simparica-tick-and-flea-tablet-sarolaner",
+   "name": "Simparica Tick & Flea Tablet (Sarolaner)",
+   "brand": "Zoetis",
+   "pet": "dog",
+   "category": "dog-tick-flea",
+   "kind": "jar",
+   "tint": "#e6f1f8",
+   "badge": null,
+   "tags": [
+    "rx"
+   ],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Monthly chewable tick and flea control for dogs.",
+   "highlights": [
+    "Starts working within hours",
+    "Monthly dose",
+    "Chewable tablet"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Zoetis"
+    ],
+    [
+     "For",
+     "Dogs"
+    ],
+    [
+     "Prescription",
+     "Required — order through pharko"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "10–20 kg",
+     "price": 54700,
+     "mrp": 56400,
+     "grams": null
+    },
+    {
+     "label": "20–40 kg",
+     "price": 69000,
+     "mrp": 71100,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "boehringer-ingelheim-frontline-plus-spot-on-for-dogs",
+   "name": "Frontline Plus Spot-On for Dogs",
+   "brand": "Boehringer Ingelheim",
+   "pet": "dog",
+   "category": "dog-tick-flea",
+   "kind": "bottle",
+   "tint": "#e6f1f8",
+   "badge": null,
+   "tags": [],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Spot-on applied between the shoulder blades to kill fleas, ticks and flea eggs. Waterproof after 48 hours.",
+   "highlights": [
+    "Kills fleas, ticks and lice",
+    "Breaks the flea life cycle",
+    "One pipette a month"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Boehringer Ingelheim"
+    ],
+    [
+     "For",
+     "Dogs"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "Small 2–10 kg",
+     "price": 64000,
+     "mrp": 66000,
+     "grams": null
+    },
+    {
+     "label": "Medium 10–20 kg",
+     "price": 71000,
+     "mrp": 73200,
+     "grams": null
+    },
+    {
+     "label": "Large 20–40 kg",
+     "price": 79000,
+     "mrp": 81500,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "intas-fiprofort-plus-spot-on-for-dogs",
+   "name": "Fiprofort Plus Spot-On for Dogs",
+   "brand": "Intas",
+   "pet": "dog",
+   "category": "dog-tick-flea",
+   "kind": "bottle",
+   "tint": "#e6f1f8",
+   "badge": null,
+   "tags": [],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Budget-friendly monthly spot-on against fleas and ticks.",
+   "highlights": [
+    "Monthly spot-on",
+    "Fleas and ticks",
+    "Easy-squeeze pipette"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Intas"
+    ],
+    [
+     "For",
+     "Dogs"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "Small up to 10 kg",
+     "price": 37500,
+     "mrp": 39500,
+     "grams": null
+    },
+    {
+     "label": "Large 20–40 kg",
+     "price": 45000,
+     "mrp": 47500,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "himalaya-erina-ep-tick-and-flea-shampoo",
+   "name": "Erina-EP Tick & Flea Shampoo",
+   "brand": "Himalaya",
+   "pet": "dog",
+   "category": "dog-tick-flea",
+   "kind": "bottle",
+   "tint": "#e6f1f8",
+   "badge": "Tailskart Pick",
+   "tags": [],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Herbal shampoo that helps control ticks and fleas while keeping the coat soft.",
+   "highlights": [
+    "Herbal formula",
+    "Controls ticks and fleas",
+    "Gentle on skin"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Himalaya"
+    ],
+    [
+     "For",
+     "Dogs"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "200 ml",
+     "price": 23500,
+     "mrp": 25000,
+     "grams": 200
+    },
+    {
+     "label": "450 ml",
+     "price": 47000,
+     "mrp": 49500,
+     "grams": 450
+    }
+   ]
+  },
+  {
+   "slug": "elanco-drontal-plus-tasty-dog-deworming-tablet",
+   "name": "Drontal Plus Tasty Dog Deworming Tablet",
+   "brand": "Elanco",
+   "pet": "dog",
+   "category": "dog-medicines",
+   "kind": "jar",
+   "tint": "#e6f1f8",
+   "badge": "Bestseller",
+   "tags": [],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Broad-spectrum dewormer for roundworms, hookworms, whipworms and tapeworms in a meaty flavoured tablet.",
+   "highlights": [
+    "Treats all common intestinal worms",
+    "Flavoured tablet",
+    "Dose by body weight"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Elanco"
+    ],
+    [
+     "For",
+     "Dogs"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "Strip of 6",
+     "price": 81300,
+     "mrp": 83800,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "intas-eazypet-dog-deworming-tablet",
+   "name": "Eazypet Dog Deworming Tablet",
+   "brand": "Intas",
+   "pet": "dog",
+   "category": "dog-medicines",
+   "kind": "jar",
+   "tint": "#e6f1f8",
+   "badge": null,
+   "tags": [],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Everyday dewormer for adult dogs and puppies above the recommended age.",
+   "highlights": [
+    "Broad-spectrum",
+    "Strip of 10 tablets",
+    "Vet-recommended schedule"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Intas"
+    ],
+    [
+     "For",
+     "Dogs"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "Strip of 10",
+     "price": 38500,
+     "mrp": 39200,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "zoetis-apoquel-16mg-tablet-oclacitinib",
+   "name": "Apoquel 16mg Tablet (Oclacitinib)",
+   "brand": "Zoetis",
+   "pet": "dog",
+   "category": "dog-medicines",
+   "kind": "jar",
+   "tint": "#e6f1f8",
+   "badge": null,
+   "tags": [
+    "rx"
+   ],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Prescription relief for itching caused by allergic skin conditions in dogs.",
+   "highlights": [
+    "Fast itch relief",
+    "Prescribed for allergic dermatitis",
+    "Dose set by your vet"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Zoetis"
+    ],
+    [
+     "For",
+     "Dogs"
+    ],
+    [
+     "Prescription",
+     "Required — order through pharko"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "Strip of 10",
+     "price": 286400,
+     "mrp": 301500,
+     "grams": null
+    },
+    {
+     "label": "2 strips (20)",
+     "price": 565000,
+     "mrp": 603000,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "vivaldis-oclapet-16mg-tablet-oclacitinib",
+   "name": "Oclapet 16mg Tablet (Oclacitinib)",
+   "brand": "Vivaldis",
+   "pet": "dog",
+   "category": "dog-medicines",
+   "kind": "jar",
+   "tint": "#e6f1f8",
+   "badge": null,
+   "tags": [
+    "rx"
+   ],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Prescription itch relief for dogs with allergic skin conditions.",
+   "highlights": [
+    "Itch relief",
+    "Strip of 10 tablets",
+    "Dose set by your vet"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Vivaldis"
+    ],
+    [
+     "For",
+     "Dogs"
+    ],
+    [
+     "Prescription",
+     "Required — order through pharko"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "Strip of 10",
+     "price": 140000,
+     "mrp": 140000,
+     "grams": null
+    },
+    {
+     "label": "2 strips (20)",
+     "price": 276000,
+     "mrp": 280000,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "savavet-safeheart-tablet-pimobendan",
+   "name": "Safeheart Tablet (Pimobendan)",
+   "brand": "Savavet",
+   "pet": "dog",
+   "category": "dog-medicines",
+   "kind": "jar",
+   "tint": "#e6f1f8",
+   "badge": null,
+   "tags": [
+    "rx"
+   ],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Heart medicine prescribed for dogs with certain heart conditions.",
+   "highlights": [
+    "Prescribed heart support",
+    "Pack of 30 tablets",
+    "Strength chosen by your vet"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Savavet"
+    ],
+    [
+     "For",
+     "Dogs"
+    ],
+    [
+     "Prescription",
+     "Required — order through pharko"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "1.25 mg · 30 tablets",
+     "price": 129000,
+     "mrp": 132000,
+     "grams": null
+    },
+    {
+     "label": "5 mg · 30 tablets",
+     "price": 269000,
+     "mrp": 275000,
+     "grams": null
+    },
+    {
+     "label": "10 mg · 30 tablets",
+     "price": 413500,
+     "mrp": 421900,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "virbac-easotic-ear-drops",
+   "name": "Easotic Ear Drops",
+   "brand": "Virbac",
+   "pet": "dog",
+   "category": "dog-medicines",
+   "kind": "bottle",
+   "tint": "#e6f1f8",
+   "badge": null,
+   "tags": [
+    "rx"
+   ],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Prescription ear drops for dogs with outer-ear infections.",
+   "highlights": [
+    "Ready-to-use dropper",
+    "Once daily",
+    "Use as directed by your vet"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Virbac"
+    ],
+    [
+     "For",
+     "Dogs"
+    ],
+    [
+     "Prescription",
+     "Required — order through pharko"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "10 ml",
+     "price": 73500,
+     "mrp": 75000,
+     "grams": 10
+    }
+   ]
+  },
+  {
+   "slug": "virbac-ketochlor-antifungal-and-antiseptic-shampoo",
+   "name": "Ketochlor Antifungal & Antiseptic Shampoo",
+   "brand": "Virbac",
+   "pet": "dog",
+   "category": "dog-medicines",
+   "kind": "bottle",
+   "tint": "#e6f1f8",
+   "badge": null,
+   "tags": [],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Medicated shampoo for dogs and cats with fungal or bacterial skin problems.",
+   "highlights": [
+    "Antifungal + antiseptic",
+    "For dogs and cats",
+    "Lather and leave for 10 minutes"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Virbac"
+    ],
+    [
+     "For",
+     "Dogs"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "200 ml",
+     "price": 34900,
+     "mrp": 35600,
+     "grams": 200
+    }
+   ]
+  },
+  {
+   "slug": "intas-conaseb-antibacterial-antifungal-shampoo",
+   "name": "Conaseb Antibacterial Antifungal Shampoo",
+   "brand": "Intas",
+   "pet": "dog",
+   "category": "dog-medicines",
+   "kind": "bottle",
+   "tint": "#e6f1f8",
+   "badge": null,
+   "tags": [],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Medicated shampoo that helps with itchy, flaky and infected skin.",
+   "highlights": [
+    "Antibacterial and antifungal",
+    "For dogs and cats",
+    "Soothes itchy skin"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Intas"
+    ],
+    [
+     "For",
+     "Dogs"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "100 ml",
+     "price": 19900,
+     "mrp": 20500,
+     "grams": 100
+    },
+    {
+     "label": "200 ml",
+     "price": 35900,
+     "mrp": 36600,
+     "grams": 200
+    }
+   ]
+  },
+  {
+   "slug": "savavet-lisybin-liver-support-tablet",
+   "name": "Lisybin Liver Support Tablet",
+   "brand": "Savavet",
+   "pet": "dog",
+   "category": "dog-medicines",
+   "kind": "jar",
+   "tint": "#e6f1f8",
+   "badge": null,
+   "tags": [],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Liver support tablets with silybin for dogs.",
+   "highlights": [
+    "Supports liver function",
+    "Size-specific strength",
+    "Strip of 10"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Savavet"
+    ],
+    [
+     "For",
+     "Dogs"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "Small dog · 10 tablets",
+     "price": 23000,
+     "mrp": 23400,
+     "grams": null
+    },
+    {
+     "label": "Medium dog · 10 tablets",
+     "price": 23000,
+     "mrp": 23400,
+     "grams": null
+    },
+    {
+     "label": "Large dog · 10 tablets",
+     "price": 23000,
+     "mrp": 23400,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "vivaldis-condrovet-force-ha-joint-support-tablet",
+   "name": "Condrovet Force HA Joint Support Tablet",
+   "brand": "Vivaldis",
+   "pet": "dog",
+   "category": "dog-supplements",
+   "kind": "jar",
+   "tint": "#e8f0fd",
+   "badge": null,
+   "tags": [],
+   "lifeStage": "Senior",
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Glucosamine, chondroitin and hyaluronic acid for stiff and ageing joints.",
+   "highlights": [
+    "Glucosamine + chondroitin",
+    "With hyaluronic acid",
+    "For senior and active dogs"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Vivaldis"
+    ],
+    [
+     "For",
+     "Dogs"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "Strip of 10",
+     "price": 59000,
+     "mrp": 59000,
+     "grams": null
+    },
+    {
+     "label": "2 strips (20)",
+     "price": 115000,
+     "mrp": 118000,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "vivaldis-condrovet-large-joint-support-tablet",
+   "name": "Condrovet Large Joint Support Tablet",
+   "brand": "Vivaldis",
+   "pet": "dog",
+   "category": "dog-supplements",
+   "kind": "jar",
+   "tint": "#e8f0fd",
+   "badge": null,
+   "tags": [],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Joint support sized for large and giant breeds.",
+   "highlights": [
+    "For large breeds",
+    "Daily chewable",
+    "Supports mobility"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Vivaldis"
+    ],
+    [
+     "For",
+     "Dogs"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "Strip of 10",
+     "price": 110000,
+     "mrp": 110000,
+     "grams": null
+    },
+    {
+     "label": "2 strips (20)",
+     "price": 215000,
+     "mrp": 220000,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "skyec-flexi-run-hip-and-joint-tablet",
+   "name": "Flexi Run Hip & Joint Tablet",
+   "brand": "Skyec",
+   "pet": "dog",
+   "category": "dog-supplements",
+   "kind": "jar",
+   "tint": "#e8f0fd",
+   "badge": null,
+   "tags": [],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Advanced hip and joint formula for dogs that love to run.",
+   "highlights": [
+    "Hip and joint formula",
+    "Bottle of 30",
+    "Tasty chewable"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Skyec"
+    ],
+    [
+     "For",
+     "Dogs"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "30 tablets",
+     "price": 147000,
+     "mrp": 150000,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "vetoquinol-flexadin-forte-joint-support-chews",
+   "name": "Flexadin Forte Joint Support Chews",
+   "brand": "Vetoquinol",
+   "pet": "dog",
+   "category": "dog-supplements",
+   "kind": "treat",
+   "tint": "#e8f0fd",
+   "badge": null,
+   "tags": [],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Tasty joint chews dogs take like a treat.",
+   "highlights": [
+    "Soft chew format",
+    "Daily joint care",
+    "Dogs love the taste"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Vetoquinol"
+    ],
+    [
+     "For",
+     "Dogs"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "30 chews",
+     "price": 121300,
+     "mrp": 125000,
+     "grams": null
+    },
+    {
+     "label": "60 chews",
+     "price": 235000,
+     "mrp": 242000,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "skyec-star-coat-omega-3-6-syrup",
+   "name": "Star Coat Omega 3 + 6 Syrup",
+   "brand": "Skyec",
+   "pet": "dog",
+   "category": "dog-supplements",
+   "kind": "bottle",
+   "tint": "#e8f0fd",
+   "badge": "Tailskart Pick",
+   "tags": [],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Omega-rich syrup for a shinier coat and healthier skin — for dogs and cats.",
+   "highlights": [
+    "Omega 3 & 6",
+    "Reduces shedding",
+    "For dogs and cats"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Skyec"
+    ],
+    [
+     "For",
+     "Dogs"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "200 ml",
+     "price": 44100,
+     "mrp": 45000,
+     "grams": 200
+    },
+    {
+     "label": "500 ml",
+     "price": 98000,
+     "mrp": 100000,
+     "grams": 500
+    }
+   ]
+  },
+  {
+   "slug": "venky-s-gutwell-pre-and-probiotic-powder",
+   "name": "Gutwell Pre & Probiotic Powder",
+   "brand": "Venky's",
+   "pet": "dog",
+   "category": "dog-supplements",
+   "kind": "pouch",
+   "tint": "#e8f0fd",
+   "badge": null,
+   "tags": [],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Prebiotic and probiotic powder that supports digestion — sprinkle on food.",
+   "highlights": [
+    "Pre + probiotics",
+    "Sprinkle on meals",
+    "For dogs and cats"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Venky's"
+    ],
+    [
+     "For",
+     "Dogs"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "50 g",
+     "price": 20000,
+     "mrp": 20000,
+     "grams": 50
+    },
+    {
+     "label": "100 g",
+     "price": 38000,
+     "mrp": 39000,
+     "grams": 100
+    }
+   ]
+  },
+  {
+   "slug": "neo-kumfurt-pawgest-digestive-powder",
+   "name": "Pawgest Digestive Powder",
+   "brand": "Neo Kumfurt",
+   "pet": "dog",
+   "category": "dog-supplements",
+   "kind": "pouch",
+   "tint": "#e8f0fd",
+   "badge": null,
+   "tags": [],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Single-serve sachets for upset tummies and sensitive digestion.",
+   "highlights": [
+    "Easy single sachets",
+    "Supports gut health",
+    "For dogs and cats"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Neo Kumfurt"
+    ],
+    [
+     "For",
+     "Dogs"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "30 sachets × 5 g",
+     "price": 101900,
+     "mrp": 105000,
+     "grams": 150
+    }
+   ]
+  },
+  {
+   "slug": "neo-kumfurt-pawflex-joint-oral-paste",
+   "name": "Pawflex Joint Oral Paste",
+   "brand": "Neo Kumfurt",
+   "pet": "dog",
+   "category": "dog-supplements",
+   "kind": "bottle",
+   "tint": "#e8f0fd",
+   "badge": null,
+   "tags": [],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Easy-to-give joint paste for dogs and cats.",
+   "highlights": [
+    "Paste format",
+    "Joint support",
+    "For dogs and cats"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Neo Kumfurt"
+    ],
+    [
+     "For",
+     "Dogs"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "100 ml",
+     "price": 160100,
+     "mrp": 165000,
+     "grams": 100
+    }
+   ]
+  },
+  {
+   "slug": "himalaya-liv-52-pet-liquid",
+   "name": "Liv.52 Pet Liquid",
+   "brand": "Himalaya",
+   "pet": "dog",
+   "category": "dog-supplements",
+   "kind": "bottle",
+   "tint": "#e8f0fd",
+   "badge": null,
+   "tags": [],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Herbal liver tonic that supports appetite and digestion.",
+   "highlights": [
+    "Herbal formula",
+    "Supports appetite",
+    "For dogs and cats"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Himalaya"
+    ],
+    [
+     "For",
+     "Dogs"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "200 ml",
+     "price": 21500,
+     "mrp": 22500,
+     "grams": 200
+    }
+   ]
+  },
+  {
+   "slug": "elanco-drontal-cat-deworming-tablet",
+   "name": "Drontal Cat Deworming Tablet",
+   "brand": "Elanco",
+   "pet": "cat",
+   "category": "cat-medicines",
+   "kind": "jar",
+   "tint": "#e6f1f8",
+   "badge": "Bestseller",
+   "tags": [],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Broad-spectrum dewormer for cats and kittens over the recommended age.",
+   "highlights": [
+    "Roundworms and tapeworms",
+    "Small, easy tablet",
+    "Dose by body weight"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Elanco"
+    ],
+    [
+     "For",
+     "Cats"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "Strip of 2",
+     "price": 37200,
+     "mrp": 38000,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "msd-animal-health-bravecto-spot-on-for-cats-fluralaner",
+   "name": "Bravecto Spot-On for Cats (Fluralaner)",
+   "brand": "MSD Animal Health",
+   "pet": "cat",
+   "category": "cat-medicines",
+   "kind": "bottle",
+   "tint": "#e6f1f8",
+   "badge": null,
+   "tags": [
+    "rx"
+   ],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "One spot-on application protects cats from fleas and ticks for up to 12 weeks.",
+   "highlights": [
+    "Up to 12 weeks",
+    "No tablets to give",
+    "Choose by your cat's weight"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "MSD Animal Health"
+    ],
+    [
+     "For",
+     "Cats"
+    ],
+    [
+     "Prescription",
+     "Required — order through pharko"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "1.2–2.8 kg",
+     "price": 229000,
+     "mrp": 236000,
+     "grams": null
+    },
+    {
+     "label": "2.8–6.25 kg",
+     "price": 245000,
+     "mrp": 252000,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "boehringer-ingelheim-frontline-plus-spot-on-for-cats",
+   "name": "Frontline Plus Spot-On for Cats",
+   "brand": "Boehringer Ingelheim",
+   "pet": "cat",
+   "category": "cat-medicines",
+   "kind": "bottle",
+   "tint": "#e6f1f8",
+   "badge": null,
+   "tags": [],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Monthly spot-on that kills fleas, ticks and flea eggs on cats.",
+   "highlights": [
+    "Monthly protection",
+    "Kills flea eggs",
+    "Waterproof"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Boehringer Ingelheim"
+    ],
+    [
+     "For",
+     "Cats"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "1 pipette",
+     "price": 59000,
+     "mrp": 61000,
+     "grams": null
+    },
+    {
+     "label": "3 pipettes",
+     "price": 169000,
+     "mrp": 183000,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "virbac-pronefra-kidney-support-syrup",
+   "name": "Pronefra Kidney Support Syrup",
+   "brand": "Virbac",
+   "pet": "cat",
+   "category": "cat-medicines",
+   "kind": "bottle",
+   "tint": "#e6f1f8",
+   "badge": null,
+   "tags": [],
+   "lifeStage": "Senior",
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Supports kidney function in cats and dogs — often recommended for older pets.",
+   "highlights": [
+    "Kidney support",
+    "Easy oral syrup",
+    "For cats and dogs"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Virbac"
+    ],
+    [
+     "For",
+     "Cats"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "60 ml",
+     "price": 86000,
+     "mrp": 88000,
+     "grams": 60
+    },
+    {
+     "label": "180 ml",
+     "price": 196000,
+     "mrp": 200000,
+     "grams": 180
+    }
+   ]
+  },
+  {
+   "slug": "beaphar-malt-paste-hairball-remedy-for-cats",
+   "name": "Malt Paste Hairball Remedy for Cats",
+   "brand": "Beaphar",
+   "pet": "cat",
+   "category": "cat-supplements",
+   "kind": "bottle",
+   "tint": "#e8f0fd",
+   "badge": "Tailskart Pick",
+   "tags": [],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Tasty malt paste that helps hairballs pass naturally.",
+   "highlights": [
+    "Helps prevent hairballs",
+    "Cats lick it off",
+    "Great for long-haired cats"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Beaphar"
+    ],
+    [
+     "For",
+     "Cats"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "100 g",
+     "price": 52000,
+     "mrp": 55000,
+     "grams": 100
+    }
+   ]
+  },
+  {
+   "slug": "beaphar-lysine-paste-for-cats",
+   "name": "Lysine Paste for Cats",
+   "brand": "Beaphar",
+   "pet": "cat",
+   "category": "cat-supplements",
+   "kind": "bottle",
+   "tint": "#e8f0fd",
+   "badge": null,
+   "tags": [],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "L-lysine paste that supports immunity and eye health.",
+   "highlights": [
+    "Immune support",
+    "Paste format",
+    "For cats and kittens"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Beaphar"
+    ],
+    [
+     "For",
+     "Cats"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "100 g",
+     "price": 75000,
+     "mrp": 79000,
+     "grams": 100
+    }
+   ]
+  },
+  {
+   "slug": "skyec-star-coat-omega-syrup-for-cats",
+   "name": "Star Coat Omega Syrup for Cats",
+   "brand": "Skyec",
+   "pet": "cat",
+   "category": "cat-supplements",
+   "kind": "bottle",
+   "tint": "#e8f0fd",
+   "badge": null,
+   "tags": [],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Omega 3 and 6 for a soft, glossy coat and less shedding.",
+   "highlights": [
+    "Omega 3 & 6",
+    "Less shedding",
+    "Mix with food"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Skyec"
+    ],
+    [
+     "For",
+     "Cats"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "100 ml",
+     "price": 29000,
+     "mrp": 30000,
+     "grams": 100
+    },
+    {
+     "label": "200 ml",
+     "price": 44100,
+     "mrp": 45000,
+     "grams": 200
+    }
+   ]
+  },
+  {
+   "slug": "pedigree-puppy-chicken-chunks-in-gravy-wet-food",
+   "name": "Puppy Chicken Chunks in Gravy Wet Food",
+   "brand": "Pedigree",
+   "pet": "dog",
+   "category": "dog-wet-food",
+   "kind": "pouch",
+   "tint": "#f8d9c4",
+   "badge": null,
+   "tags": [],
+   "lifeStage": "Puppy",
+   "breedSize": null,
+   "diet": null,
+   "flavour": "Chicken",
+   "description": "Tender chicken chunks in gravy, made for growing puppies.",
+   "highlights": [
+    "Complete meal for puppies",
+    "Soft chunks in gravy",
+    "Pack of 15 pouches"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Pedigree"
+    ],
+    [
+     "For",
+     "Dogs"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "70 g × 15",
+     "price": 48000,
+     "mrp": 52500,
+     "grams": 1050
+    }
+   ]
+  },
+  {
+   "slug": "drools-real-chicken-and-liver-chunks-in-gravy",
+   "name": "Real Chicken & Liver Chunks in Gravy",
+   "brand": "Drools",
+   "pet": "dog",
+   "category": "dog-wet-food",
+   "kind": "pouch",
+   "tint": "#f3c9a8",
+   "badge": null,
+   "tags": [],
+   "lifeStage": "Adult",
+   "breedSize": null,
+   "diet": null,
+   "flavour": "Chicken",
+   "description": "Real chicken and liver chunks in a rich gravy.",
+   "highlights": [
+    "Real chicken and liver",
+    "Topper or full meal",
+    "Pack of 15"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Drools"
+    ],
+    [
+     "For",
+     "Dogs"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "150 g × 15",
+     "price": 105000,
+     "mrp": 112500,
+     "grams": 2250
+    }
+   ]
+  },
+  {
+   "slug": "pedigree-dentastix-oral-care-treat-large-breed",
+   "name": "Dentastix Oral Care Treat — Large Breed",
+   "brand": "Pedigree",
+   "pet": "dog",
+   "category": "dog-treats",
+   "kind": "treat",
+   "tint": "#e6efd2",
+   "badge": "Bestseller",
+   "tags": [],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Daily dental chew that helps reduce tartar build-up.",
+   "highlights": [
+    "Cleans teeth",
+    "Freshens breath",
+    "For large breeds"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Pedigree"
+    ],
+    [
+     "For",
+     "Dogs"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "7 sticks",
+     "price": 41000,
+     "mrp": 43000,
+     "grams": 270
+    }
+   ]
+  },
+  {
+   "slug": "jerhigh-chicken-jerky-dog-treat",
+   "name": "Chicken Jerky Dog Treat",
+   "brand": "JerHigh",
+   "pet": "dog",
+   "category": "dog-treats",
+   "kind": "treat",
+   "tint": "#f8d9c4",
+   "badge": null,
+   "tags": [],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": "Chicken",
+   "description": "Real chicken jerky strips — great for training.",
+   "highlights": [
+    "Real chicken",
+    "High protein",
+    "Training-size pieces"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "JerHigh"
+    ],
+    [
+     "For",
+     "Dogs"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "70 g",
+     "price": 16000,
+     "mrp": 17500,
+     "grams": 70
+    },
+    {
+     "label": "200 g",
+     "price": 42000,
+     "mrp": 46000,
+     "grams": 200
+    }
+   ]
+  },
+  {
+   "slug": "gnawlers-calcium-milk-bone",
+   "name": "Calcium Milk Bone",
+   "brand": "Gnawlers",
+   "pet": "dog",
+   "category": "dog-treats",
+   "kind": "treat",
+   "tint": "#fff0bf",
+   "badge": null,
+   "tags": [],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": "Milk",
+   "description": "Crunchy milk bones with added calcium.",
+   "highlights": [
+    "Added calcium",
+    "Crunchy texture",
+    "30 pieces"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Gnawlers"
+    ],
+    [
+     "For",
+     "Dogs"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "270 g · 30 pcs",
+     "price": 32000,
+     "mrp": 34900,
+     "grams": 270
+    }
+   ]
+  },
+  {
+   "slug": "skatrs-squeaky-plush-duck-toy",
+   "name": "Squeaky Plush Duck Toy",
+   "brand": "Skatrs",
+   "pet": "dog",
+   "category": "dog-toys",
+   "kind": "toy",
+   "tint": "#fff0bf",
+   "badge": null,
+   "tags": [],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Soft plush duck with a squeaker inside.",
+   "highlights": [
+    "Squeaker inside",
+    "Soft plush",
+    "For gentle players"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Skatrs"
+    ],
+    [
+     "For",
+     "Dogs"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "One size",
+     "price": 34900,
+     "mrp": 39900,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "captain-zack-bad-hair-day-conditioning-shampoo",
+   "name": "Bad Hair Day Conditioning Shampoo",
+   "brand": "Captain Zack",
+   "pet": "dog",
+   "category": "dog-grooming",
+   "kind": "bottle",
+   "tint": "#e7e0f5",
+   "badge": null,
+   "tags": [],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Conditioning shampoo that detangles and softens the coat.",
+   "highlights": [
+    "Detangles",
+    "Mild fragrance",
+    "Paraben free"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Captain Zack"
+    ],
+    [
+     "For",
+     "Dogs"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "200 ml",
+     "price": 44900,
+     "mrp": 49900,
+     "grams": 200
+    }
+   ]
+  },
+  {
+   "slug": "trixie-soft-slicker-brush",
+   "name": "Soft Slicker Brush",
+   "brand": "Trixie",
+   "pet": "dog",
+   "category": "dog-grooming",
+   "kind": "collar",
+   "tint": "#e7e0f5",
+   "badge": null,
+   "tags": [],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Removes loose hair and tangles without pulling.",
+   "highlights": [
+    "Soft pins",
+    "Comfortable grip",
+    "For all coat types"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Trixie"
+    ],
+    [
+     "For",
+     "Dogs"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "Medium",
+     "price": 54900,
+     "mrp": 59900,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "trixie-premium-y-harness",
+   "name": "Premium Y-Harness",
+   "brand": "Trixie",
+   "pet": "dog",
+   "category": "dog-walk",
+   "kind": "collar",
+   "tint": "#d9e1fb",
+   "badge": null,
+   "tags": [],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Padded Y-harness that doesn't press on the throat.",
+   "highlights": [
+    "Padded chest",
+    "Adjustable straps",
+    "Reflective stitching"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Trixie"
+    ],
+    [
+     "For",
+     "Dogs"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "S",
+     "price": 119900,
+     "mrp": 139900,
+     "grams": null
+    },
+    {
+     "label": "M",
+     "price": 129900,
+     "mrp": 149900,
+     "grams": null
+    },
+    {
+     "label": "L",
+     "price": 139900,
+     "mrp": 159900,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "petvogue-round-donut-bed",
+   "name": "Round Donut Bed",
+   "brand": "Petvogue",
+   "pet": "dog",
+   "category": "dog-beds",
+   "kind": "bed",
+   "tint": "#ece8fb",
+   "badge": null,
+   "tags": [],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Plush calming donut bed with raised edges.",
+   "highlights": [
+    "Raised calming rim",
+    "Machine washable",
+    "Non-slip base"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Petvogue"
+    ],
+    [
+     "For",
+     "Dogs"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "Medium",
+     "price": 149900,
+     "mrp": 199900,
+     "grams": null
+    },
+    {
+     "label": "Large",
+     "price": 179900,
+     "mrp": 249900,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "trixie-stainless-steel-bowl",
+   "name": "Stainless Steel Bowl",
+   "brand": "Trixie",
+   "pet": "dog",
+   "category": "dog-bowls",
+   "kind": "bowl",
+   "tint": "#e3e9fc",
+   "badge": null,
+   "tags": [],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Rust-proof steel bowl with a rubber ring that stops sliding.",
+   "highlights": [
+    "Rust-proof steel",
+    "Anti-slip rubber ring",
+    "Dishwasher safe"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Trixie"
+    ],
+    [
+     "For",
+     "Dogs"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "750 ml",
+     "price": 39900,
+     "mrp": 45000,
+     "grams": null
+    },
+    {
+     "label": "1.8 L",
+     "price": 54900,
+     "mrp": 62000,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "whiskas-adult-ocean-fish-dry-cat-food",
+   "name": "Adult Ocean Fish Dry Cat Food",
+   "brand": "Whiskas",
+   "pet": "cat",
+   "category": "cat-dry-food",
+   "kind": "bag",
+   "tint": "#cde6f5",
+   "badge": null,
+   "tags": [],
+   "lifeStage": "Adult",
+   "breedSize": null,
+   "diet": null,
+   "flavour": "Fish",
+   "description": "Complete meal with ocean fish for adult cats.",
+   "highlights": [
+    "Complete and balanced",
+    "Ocean fish flavour",
+    "Supports healthy eyes"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Whiskas"
+    ],
+    [
+     "For",
+     "Cats"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "1.2 kg",
+     "price": 53000,
+     "mrp": 56000,
+     "grams": 1200
+    },
+    {
+     "label": "3 kg",
+     "price": 121000,
+     "mrp": 129000,
+     "grams": 3000
+    }
+   ]
+  },
+  {
+   "slug": "royal-canin-kitten-dry-cat-food",
+   "name": "Kitten Dry Cat Food",
+   "brand": "Royal Canin",
+   "pet": "cat",
+   "category": "cat-dry-food",
+   "kind": "bag",
+   "tint": "#e3dcf3",
+   "badge": "Bestseller",
+   "tags": [],
+   "lifeStage": "Kitten",
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Nutrition for kittens up to 12 months.",
+   "highlights": [
+    "Supports immunity",
+    "Small kibble",
+    "Up to 12 months"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Royal Canin"
+    ],
+    [
+     "For",
+     "Cats"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "400 g",
+     "price": 58000,
+     "mrp": 61000,
+     "grams": 400
+    },
+    {
+     "label": "2 kg",
+     "price": 189000,
+     "mrp": 199000,
+     "grams": 2000
+    }
+   ]
+  },
+  {
+   "slug": "sheba-rich-premium-chicken-wet-cat-food",
+   "name": "Rich Premium Chicken Wet Cat Food",
+   "brand": "Sheba",
+   "pet": "cat",
+   "category": "cat-wet-food",
+   "kind": "pouch",
+   "tint": "#f8d9c4",
+   "badge": null,
+   "tags": [],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": "Chicken",
+   "description": "Fine chicken cuts in gravy — a premium treat meal.",
+   "highlights": [
+    "Fine cuts",
+    "Premium recipe",
+    "Pack of 12"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Sheba"
+    ],
+    [
+     "For",
+     "Cats"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "35 g × 12",
+     "price": 48000,
+     "mrp": 54000,
+     "grams": 420
+    }
+   ]
+  },
+  {
+   "slug": "whiskas-kitten-tuna-in-jelly-wet-food",
+   "name": "Kitten Tuna in Jelly Wet Food",
+   "brand": "Whiskas",
+   "pet": "cat",
+   "category": "cat-wet-food",
+   "kind": "pouch",
+   "tint": "#cde6f5",
+   "badge": null,
+   "tags": [],
+   "lifeStage": "Kitten",
+   "breedSize": null,
+   "diet": null,
+   "flavour": "Tuna",
+   "description": "Tuna in jelly made for kittens.",
+   "highlights": [
+    "Complete for kittens",
+    "Tuna in jelly",
+    "Pack of 12"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Whiskas"
+    ],
+    [
+     "For",
+     "Cats"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "85 g × 12",
+     "price": 48000,
+     "mrp": 52800,
+     "grams": 1020
+    }
+   ]
+  },
+  {
+   "slug": "temptations-classic-tasty-chicken-cat-treats",
+   "name": "Classic Tasty Chicken Cat Treats",
+   "brand": "Temptations",
+   "pet": "cat",
+   "category": "cat-treats",
+   "kind": "treat",
+   "tint": "#fff0bf",
+   "badge": null,
+   "tags": [],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": "Chicken",
+   "description": "Crunchy outside, soft inside — cats come running.",
+   "highlights": [
+    "Crunchy and soft",
+    "Under 2 calories a treat",
+    "Resealable pack"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Temptations"
+    ],
+    [
+     "For",
+     "Cats"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "85 g",
+     "price": 24900,
+     "mrp": 27000,
+     "grams": 85
+    }
+   ]
+  },
+  {
+   "slug": "catsan-ultra-clumping-cat-litter",
+   "name": "Ultra Clumping Cat Litter",
+   "brand": "Catsan",
+   "pet": "cat",
+   "category": "cat-litter",
+   "kind": "litter",
+   "tint": "#e3dcf3",
+   "badge": null,
+   "tags": [],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Fast-clumping litter that locks in odour.",
+   "highlights": [
+    "Fast clumping",
+    "Odour control",
+    "Low dust"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Catsan"
+    ],
+    [
+     "For",
+     "Cats"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "10 L",
+     "price": 99900,
+     "mrp": 109900,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "pet-clean-tofu-cat-litter-original",
+   "name": "Tofu Cat Litter — Original",
+   "brand": "Pet Clean",
+   "pet": "cat",
+   "category": "cat-litter",
+   "kind": "litter",
+   "tint": "#e6efd2",
+   "badge": "Tailskart Pick",
+   "tags": [],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Plant-based tofu litter you can flush in small amounts.",
+   "highlights": [
+    "Plant based",
+    "Flushable in small amounts",
+    "Low dust"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Pet Clean"
+    ],
+    [
+     "For",
+     "Cats"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "6 L",
+     "price": 69900,
+     "mrp": 79900,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "pawzone-cardboard-cat-scratcher-lounge",
+   "name": "Cardboard Cat Scratcher Lounge",
+   "brand": "Pawzone",
+   "pet": "cat",
+   "category": "cat-toys",
+   "kind": "bed",
+   "tint": "#fbe1c5",
+   "badge": null,
+   "tags": [],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Curved scratcher that doubles as a lounger. Catnip included.",
+   "highlights": [
+    "Saves your sofa",
+    "Catnip included",
+    "Reversible pad"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Pawzone"
+    ],
+    [
+     "For",
+     "Cats"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "One size",
+     "price": 74900,
+     "mrp": 99900,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "kong-kickeroo-cat-toy",
+   "name": "Kickeroo Cat Toy",
+   "brand": "Kong",
+   "pet": "cat",
+   "category": "cat-toys",
+   "kind": "toy",
+   "tint": "#f8c9c4",
+   "badge": null,
+   "tags": [],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Long kicker toy with catnip for bunny-kicking fun.",
+   "highlights": [
+    "Catnip filled",
+    "Crinkle sound",
+    "Great for kicking"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Kong"
+    ],
+    [
+     "For",
+     "Cats"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "One size",
+     "price": 59900,
+     "mrp": 69900,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "petvogue-cosy-cat-cave-bed",
+   "name": "Cosy Cat Cave Bed",
+   "brand": "Petvogue",
+   "pet": "cat",
+   "category": "cat-accessories",
+   "kind": "bed",
+   "tint": "#ece8fb",
+   "badge": null,
+   "tags": [],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Soft cave bed for cats who love to hide.",
+   "highlights": [
+    "Enclosed and cosy",
+    "Removable cushion",
+    "Washable"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Petvogue"
+    ],
+    [
+     "For",
+     "Cats"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "One size",
+     "price": 149900,
+     "mrp": 199900,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "taiyo-pluss-discovery-fish-food",
+   "name": "Pluss Discovery Fish Food",
+   "brand": "Taiyo",
+   "pet": "small",
+   "category": "fish-food",
+   "kind": "jar",
+   "tint": "#d6ecf6",
+   "badge": null,
+   "tags": [],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Floating pellets for tropical fish.",
+   "highlights": [
+    "Floating pellets",
+    "Colour enhancing",
+    "For tropical fish"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Taiyo"
+    ],
+    [
+     "For",
+     "Small pets"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "100 g",
+     "price": 19900,
+     "mrp": 22000,
+     "grams": 100
+    }
+   ]
+  },
+  {
+   "slug": "versele-laga-cuni-complete-rabbit-food",
+   "name": "Cuni Complete Rabbit Food",
+   "brand": "Versele-Laga",
+   "pet": "small",
+   "category": "rabbit-food",
+   "kind": "bag",
+   "tint": "#e6efd2",
+   "badge": null,
+   "tags": [],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Extruded all-in-one pellets so rabbits can't pick out favourites.",
+   "highlights": [
+    "High fibre",
+    "No selective feeding",
+    "With timothy hay"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Versele-Laga"
+    ],
+    [
+     "For",
+     "Small pets"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "500 g",
+     "price": 59900,
+     "mrp": 65000,
+     "grams": 500
+    }
+   ]
+  },
+  {
+   "slug": "vitapol-meadow-hay-for-rabbits-and-guinea-pigs",
+   "name": "Meadow Hay for Rabbits & Guinea Pigs",
+   "brand": "Vitapol",
+   "pet": "small",
+   "category": "rabbit-food",
+   "kind": "bag",
+   "tint": "#e6efd2",
+   "badge": null,
+   "tags": [],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Soft meadow hay for daily chewing and digestion.",
+   "highlights": [
+    "High fibre",
+    "Daily essential",
+    "Dust extracted"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Vitapol"
+    ],
+    [
+     "For",
+     "Small pets"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "500 g",
+     "price": 29900,
+     "mrp": 33000,
+     "grams": 500
+    }
+   ]
+  },
+  {
+   "slug": "sobo-2-in-1-aquarium-internal-filter",
+   "name": "2-in-1 Aquarium Internal Filter",
+   "brand": "Sobo",
+   "pet": "small",
+   "category": "small-pet-accessories",
+   "kind": "bottle",
+   "tint": "#d6ecf6",
+   "badge": null,
+   "tags": [],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Quiet internal filter with an aerator for small tanks.",
+   "highlights": [
+    "Filter + aerator",
+    "Quiet motor",
+    "Up to 60 litres"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Sobo"
+    ],
+    [
+     "For",
+     "Small pets"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "Up to 60 L",
+     "price": 64900,
+     "mrp": 75000,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "trixie-silent-hamster-running-wheel",
+   "name": "Silent Hamster Running Wheel",
+   "brand": "Trixie",
+   "pet": "small",
+   "category": "small-pet-accessories",
+   "kind": "toy",
+   "tint": "#fff3cc",
+   "badge": null,
+   "tags": [],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Quiet wheel with a solid running surface.",
+   "highlights": [
+    "Silent bearing",
+    "Solid surface",
+    "Free-standing"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Trixie"
+    ],
+    [
+     "For",
+     "Small pets"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "21 cm",
+     "price": 54900,
+     "mrp": 65000,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "trixie-wooden-bird-swing",
+   "name": "Wooden Bird Swing",
+   "brand": "Trixie",
+   "pet": "small",
+   "category": "small-pet-accessories",
+   "kind": "toy",
+   "tint": "#fbe7b0",
+   "badge": null,
+   "tags": [],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Natural wood swing with a bell for cage birds.",
+   "highlights": [
+    "Natural wood",
+    "With bell",
+    "Easy to hang"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Trixie"
+    ],
+    [
+     "For",
+     "Small pets"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "One size",
+     "price": 29900,
+     "mrp": 34900,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "pet-clean-pet-safe-floor-disinfectant",
+   "name": "Pet-Safe Floor Disinfectant",
+   "brand": "Pet Clean",
+   "pet": "parent",
+   "category": "home-cleaning",
+   "kind": "bottle",
+   "tint": "#ece8fb",
+   "badge": null,
+   "tags": [],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Floor cleaner that's safe around paws once dry.",
+   "highlights": [
+    "Pet-safe once dry",
+    "Removes odours",
+    "Fresh scent"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Pet Clean"
+    ],
+    [
+     "For",
+     "Pet parents"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "1 L",
+     "price": 34900,
+     "mrp": 39900,
+     "grams": 1000
+    }
+   ]
+  },
+  {
+   "slug": "captain-zack-paw-and-body-wipes",
+   "name": "Paw & Body Wipes",
+   "brand": "Captain Zack",
+   "pet": "parent",
+   "category": "home-cleaning",
+   "kind": "pouch",
+   "tint": "#e6efd2",
+   "badge": null,
+   "tags": [],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Gentle wipes for paws after walks.",
+   "highlights": [
+    "Alcohol free",
+    "Thick wipes",
+    "Pack of 100"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Captain Zack"
+    ],
+    [
+     "For",
+     "Pet parents"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "100 wipes",
+     "price": 29900,
+     "mrp": 34900,
+     "grams": null
+    }
+   ]
+  },
+  {
+   "slug": "tailskart-paw-print-coffee-mug",
+   "name": "Paw Print Coffee Mug",
+   "brand": "Tailskart",
+   "pet": "parent",
+   "category": "merch",
+   "kind": "jar",
+   "tint": "#e3e9fc",
+   "badge": null,
+   "tags": [],
+   "lifeStage": null,
+   "breedSize": null,
+   "diet": null,
+   "flavour": null,
+   "description": "Ceramic mug for proud pet parents.",
+   "highlights": [
+    "Ceramic",
+    "Dishwasher safe",
+    "350 ml"
+   ],
+   "specs": [
+    [
+     "Brand",
+     "Tailskart"
+    ],
+    [
+     "For",
+     "Pet parents"
+    ]
+   ],
+   "variants": [
+    {
+     "label": "350 ml",
+     "price": 39900,
+     "mrp": 49900,
+     "grams": null
+    }
+   ]
+  }
+ ]
+}
