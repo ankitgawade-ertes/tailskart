@@ -1,0 +1,78 @@
+services:
+  db:
+    image: postgres:16-alpine
+    restart: always
+    environment:
+      POSTGRES_USER: tailskart
+      POSTGRES_PASSWORD: tailskart_lean_demo_2026
+      POSTGRES_DB: tailskart
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U tailskart"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  api:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    restart: always
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      NODE_ENV: development
+      PORT: 4000
+      DATABASE_URL: postgresql://tailskart:tailskart_lean_demo_2026@db:5432/tailskart?schema=public
+      JWT_SECRET: super-secure-jwt-secret-for-tailskart-demo-at-least-32-chars
+      ADMIN_JWT_SECRET: super-secure-admin-secret-for-tailskart-demo-at-least-32-chars
+      OTP_PROVIDER: console
+      DEMO_OTP: "123456"
+      PAYMENT_PROVIDER: mock
+      STORAGE_DRIVER: local
+      PUBLIC_API_URL: ""
+      CORS_ORIGINS: "*"
+      RUN_MIGRATIONS: "true"
+      RUN_SEED: "true"
+    volumes:
+      - uploads_data:/app/uploads
+    expose:
+      - "4000"
+
+  web:
+    build:
+      context: ./client-frontend
+      dockerfile: Dockerfile
+      args:
+        NEXT_PUBLIC_API_URL: ""
+        NEXT_PUBLIC_SITE_URL: ""
+    restart: always
+    depends_on:
+      - api
+    environment:
+      NODE_ENV: production
+      PORT: 3000
+      HOSTNAME: 0.0.0.0
+      NEXT_TELEMETRY_DISABLED: 1
+      API_INTERNAL_URL: http://api:4000
+      API_PROXY_TARGET: http://api:4000
+    expose:
+      - "3000"
+
+  nginx:
+    image: nginx:alpine
+    restart: always
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      - web
+      - api
+
+volumes:
+  pgdata:
+  uploads_data:

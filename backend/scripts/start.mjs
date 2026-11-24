@@ -21,4 +21,12 @@ if (process.env.RUN_MIGRATIONS !== "false") {
   }
 }
 
+if (process.env.RUN_SEED === "true") {
+  console.log("Seeding database…");
+  const s = spawnSync("node", ["--import", "tsx", "prisma/seed.ts"], { stdio: "inherit", shell: process.platform === "win32", env: process.env });
+  if (s.status !== 0) {
+    console.warn("Seeding warning or failure, continuing startup…");
+  }
+}
+
 await import("../dist/index.js");

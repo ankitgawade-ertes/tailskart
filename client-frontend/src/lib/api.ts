@@ -2,8 +2,8 @@
 // Browser calls go to NEXT_PUBLIC_API_URL with the session cookie;
 // server components may use API_INTERNAL_URL (e.g. a private load balancer address).
 
-export const PUBLIC_API_URL = (process.env.NEXT_PUBLIC_API_URL || "http://localhost:4000").replace(/\/$/, "");
-const SERVER_API_URL = (process.env.API_INTERNAL_URL || PUBLIC_API_URL).replace(/\/$/, "");
+export const PUBLIC_API_URL = (process.env.NEXT_PUBLIC_API_URL ?? "").replace(/\/$/, "");
+const SERVER_API_URL = (process.env.API_INTERNAL_URL || PUBLIC_API_URL || "http://127.0.0.1:4000").replace(/\/$/, "");
 
 export class ApiError extends Error {
   constructor(

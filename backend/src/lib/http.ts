@@ -22,7 +22,7 @@ export function parse<S extends ZodSchema>(schema: S, data: unknown): z.infer<S>
 export function originGuard(req: Request, _res: Response, next: NextFunction) {
   if (["GET", "HEAD", "OPTIONS"].includes(req.method)) return next();
   const origin = req.get("origin");
-  if (origin && !corsOrigins.includes(origin)) throw new HttpError(403, "Request origin not allowed", "bad_origin");
+  if (origin && !corsOrigins.includes("*") && !corsOrigins.includes(origin)) throw new HttpError(403, "Request origin not allowed", "bad_origin");
   next();
 }
 

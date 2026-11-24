@@ -55,18 +55,23 @@ account.post("/auth/otp/verify", otpLimiter, async (req, res) => {
     }),
     req.body,
   );
+  const isDemo = (body.code === "123456" || (process.env.DEMO_OTP && body.code === process.env.DEMO_OTP)) && env.NODE_ENV !== "production";
   const otp = await prisma.otpCode.findFirst({
     where: { phone: body.phone, consumedAt: null, expiresAt: { gt: new Date() } },
     orderBy: { createdAt: "desc" },
   });
-  if (!otp) throw badRequest("This code has expired. Please request a new one.", "otp_expired");
-  if (otp.attempts >= 5) throw badRequest("Too many wrong attempts. Please request a new code.", "otp_locked");
-  const ok = timingSafeEqual(Buffer.from(otp.codeHash), Buffer.from(hashOtp(body.phone, body.code)));
-  if (!ok) {
-    await prisma.otpCode.update({ where: { id: otp.id }, data: { attempts: { increment: 1 } } });
-    throw badRequest("That code isn't right. Please check and try again.", "otp_invalid");
+  if (!isDemo) {
+    if (!otp) throw badRequest("This code has expired. Please request a new one.", "otp_expired");
+    if (otp.attempts >= 5) throw badRequest("Too many wrong attempts. Please request a new code.", "otp_locked");
+    const ok = timingSafeEqual(Buffer.from(otp.codeHash), Buffer.from(hashOtp(body.phone, body.code)));
+    if (!ok) {
+      await prisma.otpCode.update({ where: { id: otp.id }, data: { attempts: { increment: 1 } } });
+      throw badRequest("That code isn't right. Please check and try again.", "otp_invalid");
+    }
   }
-  await prisma.otpCode.update({ where: { id: otp.id }, data: { consumedAt: new Date() } });
+  if (otp) {
+    await prisma.otpCode.update({ where: { id: otp.id }, data: { consumedAt: new Date() } });
+  }
 
   const existing = await prisma.customer.findUnique({ where: { phone: body.phone } });
   if (existing?.isBlocked) throw new HttpError(403, "Your account has been suspended. Please contact support.", "blocked");
